@@ -1,0 +1,23 @@
+{
+  "name": "BootcampCypress-M1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuintilianoNery/BootcampCypress-M1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuintilianoNery/BootcampCypress-M1/issues"
+  },
+  "homepage": "https://github.com/QuintilianoNery/BootcampCypress-M1#readme",
+  "devDependencies": {
+    "cypress": "^6.2.0"
+  }
+}
