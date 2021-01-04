@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/QuintilianoNery/BootcampCypress-M1#readme",
   "devDependencies": {
-    "cypress": "^6.2.0"
+    "cypress": "4.10.0"
   }
 }
