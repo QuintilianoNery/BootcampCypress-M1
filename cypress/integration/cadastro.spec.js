@@ -37,6 +37,7 @@ context('Cadastro', () => {
         cy.get('input#secondpassword').type('Quintiliano2021*');
         //Selecionar foto no cadastro
         //.attachFile() -> serve para selecionar um arqivo
+        //Aula 02 - upload de arquivos 1:06:22
         cy.get('input#imagesrc').attachFile('raio.png')
         cy.pause()
 
