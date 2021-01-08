@@ -9,11 +9,11 @@ context('Cadastro', () => {
         //cy.visit('Register.html');
         cy.visit('http://demo.automationtesting.in/Register.html');
 
-        cy.get('input[placeholder="First Name"]').type('Quintiliano');
-        cy.get('input[ng-model="LastName"]').type('Paquini Nery');
-        cy.get('textarea[ng-model^=Adress]').type('Av. teste de endereço,321, Monte cristo, Rio de Janeiro, RJ');
-        cy.get('input[ng-model^=Email]').type('quintiliano@gmail.com');
-        cy.get('input[ng-model^=Phone]').type('2899999999');
+        cy.get('input[placeholder="First Name"]').type(chance.first());
+        cy.get('input[ng-model="LastName"]').type(chance.last());
+        cy.get('textarea[ng-model^=Adress]').type(chance.address());
+        cy.get('input[ng-model^=Email]').type(chance.email());
+        cy.get('input[ng-model^=Phone]').type(chance.phone({formatted:false}));
         //click
         cy.get('input[value^=Male]').click();
         cy.get('input[value=FeMale]').click();
@@ -30,9 +30,9 @@ context('Cadastro', () => {
         cy.get('select#countries').select('Brazil'); 
         //{force:true} faz com que o Cypress continue interagindo com elemento, quando existir span2 e o primeiro oculto
         cy.get('select#country').select('New Zealand', {force:true});
-        cy.get('select#yearbox').select('1995');
-        cy.get('select[ng-model=monthbox]').select('March');
-        cy.get('select#daybox').select('13');
+        cy.get('select#yearbox').select('2015');
+        cy.get('select[ng-model=monthbox]').select('May');
+        cy.get('select#daybox').select('21');
         cy.get('input#firstpassword').type('Quintiliano2021*');
         cy.get('input#secondpassword').type('Quintiliano2021*');
         cy.get('button#submitbtn').click();
