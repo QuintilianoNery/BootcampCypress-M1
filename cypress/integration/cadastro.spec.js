@@ -35,6 +35,12 @@ context('Cadastro', () => {
         cy.get('select#daybox').select('21');
         cy.get('input#firstpassword').type('Quintiliano2021*');
         cy.get('input#secondpassword').type('Quintiliano2021*');
+        //Selecionar foto no cadastro
+        //.attachFile() -> serve para selecionar um arqivo
+        cy.get('input#imagesrc').attachFile('raio.png')
+        cy.pause()
+
+
         cy.get('button#submitbtn').click();
     });
 });
