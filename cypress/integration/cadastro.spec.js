@@ -1,34 +1,13 @@
 /// <reference types="cypress" />
 
+let Chance = require('chance');
+let chance = new Chance();
+
 context('Cadastro', () => {
     it('Cadastro do usuário no site', () => {
         //BaseURL + a rota
-        cy.visit('Register.html');
-
-        //preencher os campos com o type
-        //elementos
-        //input[placeholder="First Name"]
-        //input[ng-model="LastName"]
-        //input[ng-model^=Email]
-        //input[ng-model^=Phone]
-        //textarea[ng-model^=Adress]
-
-        //input[value^=Male]
-        //input[value=FeMale]
-        //input[id=checkbox1]
-        //input[id=checkbox2]
-        //input[id=checkbox3]
-        //input[type=checkbox]
-
-        //interação com select
-        //select#Skills
-        //select#countries
-        //select#country
-        //select#yearbox
-        //select[ng-model=monthbox]
-        //select#daybox
-        //input#firstpassword
-        //input#secondpassword
+        //cy.visit('Register.html');
+        cy.visit('http://demo.automationtesting.in/Register.html');
 
         cy.get('input[placeholder="First Name"]').type('Quintiliano');
         cy.get('input[ng-model="LastName"]').type('Paquini Nery');
