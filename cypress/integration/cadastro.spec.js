@@ -39,9 +39,6 @@ context('Cadastro', () => {
         //.attachFile() -> serve para selecionar um arqivo
         //Aula 02 - upload de arquivos 1:06:22
         cy.get('input#imagesrc').attachFile('raio.png')
-        cy.pause()
-
-
         cy.get('button#submitbtn').click();
     });
 });
