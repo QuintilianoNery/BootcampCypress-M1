@@ -5,16 +5,39 @@ let chance = new Chance();
 
 context('Cadastro', () => {
     it('Cadastro do usuário no site', () => {
-        //BaseURL + a rota
-        //cy.visit('Register.html');
-        cy.visit('http://demo.automationtesting.in/Register.html');
+        //Rotas
+        //POST 200 /api/1/databases/userdetails/collections/newtable?apiKey=YEX0M2QMPd7JWJw_ipMB3a5gDddt4B_X
+        //POST 200 /api/1/databases/userdetails/collections/usertable?apiKey=YEX0M2QMPd7JWJw_ipMB3a5gDddt4B_X
+        //GET 200 /api/1/databases/userdetails/collections/newtable?apiKey=YEX0M2QMPd7JWJw_ipMB3a5gDddt4B_X
+        
+        //Iniciando o servidor antes de usar as rotas
+        cy.server();
 
+        //sem mocs
+        //cy.route('METODO', ROTA ).as('');
+        //quando o host não está sendo informado
+        //rota sendo variável, coloca-se os caracteres curinga, ** não importa qual que for o host + não importa o que vai vir depois **
+        //salvar a rota temporário em um aliases (.as)
+        //POST newtable
+        cy.route('POST','**/api/1/databases/userdetails/collections/newtable?**' )
+            .as('postNewtable'); //Apelidos
+        
+        //usertable
+        cy.route('POST','**/api/1/databases/userdetails/collections/usertable?**' )
+            .as('postUsertable');
+
+        //GET newtable
+        cy.route('GET','**/api/1/databases/userdetails/collections/newtable?**' )
+            .as('getNewtable');     
+
+        //BaseURL + a rota
+        cy.visit('Register.html');
+        //cy.visit('http://demo.automationtesting.in/Register.html');
         cy.get('input[placeholder="First Name"]').type(chance.first());
         cy.get('input[ng-model="LastName"]').type(chance.last());
         cy.get('textarea[ng-model^=Adress]').type(chance.address());
         cy.get('input[ng-model^=Email]').type(chance.email());
         cy.get('input[ng-model^=Phone]').type(chance.phone({formatted:false}));
-    
         //click
         cy.get('input[value^=Male]').click();
         cy.get('input[value=FeMale]').click();
@@ -42,8 +65,18 @@ context('Cadastro', () => {
         //.attachFile() -> serve para selecionar um arqivo
         //Aula 02 - upload de arquivos 1:06:22
         cy.get('input#imagesrc').attachFile('raio.png')
+        //Click button
         cy.get('button#submitbtn').click();
+
+        cy.wait('@postNewtable').then((resNewtable) =>{
+            console.log(resNewtable.status)
+            cy.log(resNewtable.status)
+        });
+
+
+
     });
 });
 
-//1:08:49
+//Conceito de rotas
+/* */
