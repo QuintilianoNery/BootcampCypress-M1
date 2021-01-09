@@ -14,6 +14,7 @@ context('Cadastro', () => {
         cy.get('textarea[ng-model^=Adress]').type(chance.address());
         cy.get('input[ng-model^=Email]').type(chance.email());
         cy.get('input[ng-model^=Phone]').type(chance.phone({formatted:false}));
+    
         //click
         cy.get('input[value^=Male]').click();
         cy.get('input[value=FeMale]').click();
@@ -30,8 +31,10 @@ context('Cadastro', () => {
         cy.get('select#countries').select('Brazil'); 
         //{force:true} faz com que o Cypress continue interagindo com elemento, quando existir span2 e o primeiro oculto
         cy.get('select#country').select('New Zealand', {force:true});
-        cy.get('select#yearbox').select('2015');
-        cy.get('select[ng-model=monthbox]').select('May');
+        //cy.get('select#yearbox').select('2015');
+        cy.get('select#yearbox').select((chance.year({min:1916, max: 2015})));
+        //cy.get('select[ng-model=monthbox]').select('May');
+        cy.get('select[ng-model=monthbox]').select((chance.month()));
         cy.get('select#daybox').select('21');
         cy.get('input#firstpassword').type('Quintiliano2021*');
         cy.get('input#secondpassword').type('Quintiliano2021*');
@@ -42,3 +45,5 @@ context('Cadastro', () => {
         cy.get('button#submitbtn').click();
     });
 });
+
+//1:08:49
