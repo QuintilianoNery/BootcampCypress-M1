@@ -68,6 +68,8 @@ context('Cadastro', () => {
         //Click button
         cy.get('button#submitbtn').click();
 
+
+        //Rotas 1:08:53
         cy.wait('@postNewtable').then((resNewtable) =>{
             console.log(resNewtable.status)
             cy.log(resNewtable.status)
