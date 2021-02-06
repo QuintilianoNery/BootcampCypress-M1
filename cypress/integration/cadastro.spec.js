@@ -1,7 +1,11 @@
 /// <reference types="cypress" />
 
+//Chance
 let Chance = require('chance');
 let chance = new Chance();
+
+//Faker-br
+let Faker = require('faker-br');
 
 context('Cadastro', () => {
     it('Cadastro do usuário no site', () => {
@@ -11,24 +15,24 @@ context('Cadastro', () => {
         //GET 200 /api/1/databases/userdetails/collections/newtable?apiKey=YEX0M2QMPd7JWJw_ipMB3a5gDddt4B_X
         
         //Iniciando o servidor antes de usar as rotas
-        cy.server();
+      cy.server();
 
+        //Rotas 1:08:53
         //sem mocs
         //cy.route('METODO', ROTA ).as('');
         //quando o host não está sendo informado
         //rota sendo variável, coloca-se os caracteres curinga, ** não importa qual que for o host + não importa o que vai vir depois **
         //salvar a rota temporário em um aliases (.as)
+       
         //POST newtable
         cy.route('POST','**/api/1/databases/userdetails/collections/newtable?**' )
-            .as('postNewtable'); //Apelidos
-        
+            .as('postNewtable');         
         //usertable
         cy.route('POST','**/api/1/databases/userdetails/collections/usertable?**' )
-            .as('postUsertable');
-
+           .as('postUsertable');
         //GET newtable
         cy.route('GET','**/api/1/databases/userdetails/collections/newtable?**' )
-            .as('getNewtable');     
+           .as('getNewtable');     
 
         //BaseURL + a rota
         cy.visit('Register.html');
@@ -64,19 +68,16 @@ context('Cadastro', () => {
         //Selecionar foto no cadastro
         //.attachFile() -> serve para selecionar um arqivo
         //Aula 02 - upload de arquivos 1:06:22
-        cy.get('input#imagesrc').attachFile('raio.png')
-        //Click button
-        cy.get('button#submitbtn').click();
+        cy.get('input#imagesrc').attachFile('raio.png');
 
+        //Click button
+        cy.get('button[id=submitbtn]').click();
 
         //Rotas 1:08:53
-        cy.wait('@postNewtable').then((resNewtable) =>{
-            console.log(resNewtable.status)
-            cy.log(resNewtable.status)
-        });
-
-
-
+       cy.wait('@postNewtable').then((resNewtable) =>{
+       console.log(resNewtable.status)
+        cy.log(resNewtable.status)
+       });
     });
 });
 
