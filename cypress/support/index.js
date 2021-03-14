@@ -25,3 +25,10 @@ import 'cypress-file-upload'
 Cypress.on('uncaught:exception', (err, runnable) =>{
     return false
 })
+
+import '@shelex/cypress-allure-plugin';
+            require('@shelex/cypress-allure-plugin');
+
+
+    import '@shelex/cypress-allure-plugin';
+    require('@shelex/cypress-allure-plugin');
