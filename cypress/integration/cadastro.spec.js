@@ -13,9 +13,9 @@ context('Cadastro', () => {
         //POST 200 /api/1/databases/userdetails/collections/newtable?apiKey=YEX0M2QMPd7JWJw_ipMB3a5gDddt4B_X
         //POST 200 /api/1/databases/userdetails/collections/usertable?apiKey=YEX0M2QMPd7JWJw_ipMB3a5gDddt4B_X
         //GET 200 /api/1/databases/userdetails/collections/newtable?apiKey=YEX0M2QMPd7JWJw_ipMB3a5gDddt4B_X
-        
+
         //Iniciando o servidor antes de usar as rotas
-      cy.server();
+        cy.server();
 
         //Rotas 1:08:53
         //sem mocs
@@ -23,16 +23,16 @@ context('Cadastro', () => {
         //quando o host não está sendo informado
         //rota sendo variável, coloca-se os caracteres curinga, ** não importa qual que for o host + não importa o que vai vir depois **
         //salvar a rota temporário em um aliases (.as)
-       
+
         //POST newtable
-        cy.route('POST','**/api/1/databases/userdetails/collections/newtable?**' )
-            .as('postNewtable');         
+        cy.route('POST', '**/api/1/databases/userdetails/collections/newtable?**')
+            .as('postNewtable');
         //usertable
-        cy.route('POST','**/api/1/databases/userdetails/collections/usertable?**' )
-           .as('postUsertable');
+        cy.route('POST', '**/api/1/databases/userdetails/collections/usertable?**')
+            .as('postUsertable');
         //GET newtable
-        cy.route('GET','**/api/1/databases/userdetails/collections/newtable?**' )
-           .as('getNewtable');     
+        cy.route('GET', '**/api/1/databases/userdetails/collections/newtable?**')
+            .as('getNewtable');
 
         //BaseURL + a rota
         cy.visit('Register.html');
@@ -41,7 +41,7 @@ context('Cadastro', () => {
         cy.get('input[ng-model="LastName"]').type(chance.last());
         cy.get('textarea[ng-model^=Adress]').type(chance.address());
         cy.get('input[ng-model^=Email]').type(chance.email());
-        cy.get('input[ng-model^=Phone]').type(chance.phone({formatted:false}));
+        cy.get('input[ng-model^=Phone]').type(chance.phone({ formatted: false }));
         //click
         cy.get('input[value^=Male]').click();
         cy.get('input[value=FeMale]').click();
@@ -55,11 +55,11 @@ context('Cadastro', () => {
         cy.get('input[id=checkbox3]').click();
         //Select -> select & select2
         cy.get('select#Skills').select('Design');
-        cy.get('select#countries').select('Brazil'); 
+        cy.get('select#countries').select('Brazil');
         //{force:true} faz com que o Cypress continue interagindo com elemento, quando existir span2 e o primeiro oculto
-        cy.get('select#country').select('New Zealand', {force:true});
+        cy.get('select#country').select('New Zealand', { force: true });
         //cy.get('select#yearbox').select('2015');
-        cy.get('select#yearbox').select((chance.year({min:1916, max: 2015})));
+        cy.get('select#yearbox').select((chance.year({ min: 1916, max: 2015 })));
         //cy.get('select[ng-model=monthbox]').select('May');
         cy.get('select[ng-model=monthbox]').select((chance.month()));
         cy.get('select#daybox').select('21');
@@ -73,11 +73,22 @@ context('Cadastro', () => {
         //Click button
         cy.get('button[id=submitbtn]').click();
 
-        //Rotas 1:08:53
-       cy.wait('@postNewtable').then((resNewtable) =>{
-       console.log(resNewtable.status)
-        cy.log(resNewtable.status)
-       });
+        //Cy.wait 01:16:52
+        cy.wait('@postNewtable').then((resNewtable) => {
+            console.log(resNewtable.status)
+            cy.log(resNewtable.status)
+        });
+
+        cy.wait('@postUsertable').then((resUsertable) => {
+            console.log(resUsertable.status)
+            cy.log(resUsertable.status)
+        });
+
+        cy.wait('@getNewtable').then((resgetNewtable) => {
+            console.log(resgetNewtable.status)
+            cy.log(resgetNewtable.status)
+        });
+
     });
 });
 
