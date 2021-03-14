@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Cadastro",
+    "children" : [ {
+      "name" : "Cadastro do usuário no site",
+      "uid" : "8dd3d56084e097e3",
+      "parentUid" : "de2ab1b6520747037939cd4a650da7de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615752861261,
+        "stop" : 1615752903352,
+        "duration" : 42091
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "de2ab1b6520747037939cd4a650da7de"
+  } ],
+  "name" : "suites"
+}

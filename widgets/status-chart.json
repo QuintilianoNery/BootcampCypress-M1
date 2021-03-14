@@ -1,0 +1,11 @@
+[ {
+  "uid" : "8dd3d56084e097e3",
+  "name" : "Cadastro do usuário no site",
+  "time" : {
+    "start" : 1615752861261,
+    "stop" : 1615752903352,
+    "duration" : 42091
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
