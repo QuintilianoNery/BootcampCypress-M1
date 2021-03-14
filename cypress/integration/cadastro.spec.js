@@ -73,24 +73,27 @@ context('Cadastro', () => {
         //Click button
         cy.get('button[id=submitbtn]').click();
 
+
+
+        //Devido a plataforma utilizada ser de teste, devemos usar Mocs, pois as vezes não é necessário enviar dados ou não está tendo uma resposta.
         //Cy.wait 01:16:52
         cy.wait('@postNewtable').then((resNewtable) => {
-            console.log(resNewtable.status)
-            cy.log(resNewtable.status)
+            // Biblioteca Chai
+            expect(resNewtable.status).to.eq(200)
         });
 
         cy.wait('@postUsertable').then((resUsertable) => {
-            console.log(resUsertable.status)
-            cy.log(resUsertable.status)
+            //Biblioteca Chai
+            expect(resUsertable.status).to.eq(200)
         });
 
         cy.wait('@getNewtable').then((resgetNewtable) => {
-            console.log(resgetNewtable.status)
-            cy.log(resgetNewtable.status)
+            expect(resgetNewtable.status).to.eq(200)
         });
+
+        //1:26:45
+        //Após salvar o cadastro o sistema deve validar a URL de destino final
+        cy.url().should('contain', 'WebTable');
 
     });
 });
-
-//Conceito de rotas
-/* */
