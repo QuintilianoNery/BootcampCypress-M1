@@ -4,13 +4,13 @@
     "name" : "Cadastro",
     "children" : [ {
       "name" : "Cadastro do usuário no site",
-      "uid" : "8dd3d56084e097e3",
+      "uid" : "51b93813e495f72f",
       "parentUid" : "de2ab1b6520747037939cd4a650da7de",
-      "status" : "passed",
+      "status" : "failed",
       "time" : {
-        "start" : 1615752861261,
-        "stop" : 1615752903352,
-        "duration" : 42091
+        "start" : 1615764938365,
+        "stop" : 1615764981043,
+        "duration" : 42678
       },
       "flaky" : false,
       "newFailed" : false,

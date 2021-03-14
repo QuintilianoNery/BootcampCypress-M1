@@ -2,13 +2,13 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "Cadastro do usuário no site",
-    "uid" : "8dd3d56084e097e3",
+    "uid" : "51b93813e495f72f",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
+    "status" : "failed",
     "time" : {
-      "start" : 1615752861261,
-      "stop" : 1615752903352,
-      "duration" : 42091
+      "start" : 1615764938365,
+      "stop" : 1615764981043,
+      "duration" : 42678
     },
     "flaky" : false,
     "newFailed" : false,
