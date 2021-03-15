@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected null to equal 200",
+      "children" : [ {
+        "name" : "Cadastro do usuário no site",
+        "uid" : "cde402b54a5cd793",
+        "parentUid" : "c0966a6dee048810a64e5b00b46e9961",
+        "status" : "failed",
+        "time" : {
+          "start" : 1615773151391,
+          "stop" : 1615773194407,
+          "duration" : 43016
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c0966a6dee048810a64e5b00b46e9961"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
   "name" : "categories"
 }
