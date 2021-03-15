@@ -1,11 +1,1 @@
-[ {
-  "uid" : "51b93813e495f72f",
-  "name" : "Cadastro do usuário no site",
-  "time" : {
-    "start" : 1615764938365,
-    "stop" : 1615764981043,
-    "duration" : 42678
-  },
-  "status" : "failed",
-  "severity" : "normal"
-} ]
+[ ]
