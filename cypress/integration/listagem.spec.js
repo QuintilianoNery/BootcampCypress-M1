@@ -20,6 +20,8 @@ context('Listagem', () => {
 
 
     //Neste teste eu trago as informações continas na rota para semrem apresantadas na tela vintas em formato JS.
+
+    //No sistema da Tecsystem podemos fazer isso para testar o retorno de informações erradas e validar se ao salvar o sistema vai mostrar exatamente as validações necessárias.
     it.only('Listagem com apenas um registro', () => {
         cy.server();
         cy.route({
@@ -36,7 +38,23 @@ context('Listagem', () => {
                 "Gender": "Male"
             }]
         }).as('getNewtable');
-
         cy.visit('WebTable.html');
+
+        cy.get('div[role=row] div[role=gridcell]')
+            .eq(3)
+            //dentro da célula de posição 3 coluna 4 eu quero que pegue o texto que esteja dentro da DIV
+            .find('div')
+            .as('gridName');
+
+        cy.get('@gridName')
+            .should('contain', 'Quintiliano');
+
+
+        //comandos CSS selector
+        //1 - .first()
+        //2 - 
+        //3 - 
+        //4 - .eq(3)
+        //5 - .last()
     });
 });
