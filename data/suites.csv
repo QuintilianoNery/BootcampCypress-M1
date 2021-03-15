@@ -1,3 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Mon Mar 15 01:52:31 GMT 2021","Mon Mar 15 01:53:14 GMT 2021","43016","","Cadastro","","","","Cadastro do usuário no site",""
-"passed","Mon Mar 15 01:53:19 GMT 2021","Mon Mar 15 01:53:29 GMT 2021","10529","","Listagem","","","","Listagem com apenas um registro",""

@@ -1,39 +1,5 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
-  "children" : [ {
-    "name" : "Cadastro",
-    "children" : [ {
-      "name" : "Cadastro do usuário no site",
-      "uid" : "cde402b54a5cd793",
-      "parentUid" : "de2ab1b6520747037939cd4a650da7de",
-      "status" : "failed",
-      "time" : {
-        "start" : 1615773151391,
-        "stop" : 1615773194407,
-        "duration" : 43016
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "de2ab1b6520747037939cd4a650da7de"
-  }, {
-    "name" : "Listagem",
-    "children" : [ {
-      "name" : "Listagem com apenas um registro",
-      "uid" : "a2e970207e77d20a",
-      "parentUid" : "b0e5ff42752bfa4a9da4963e258fa3c2",
-      "status" : "passed",
-      "time" : {
-        "start" : 1615773199182,
-        "stop" : 1615773209711,
-        "duration" : 10529
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "b0e5ff42752bfa4a9da4963e258fa3c2"
-  } ],
+  "children" : [ ],
   "name" : "suites"
 }
