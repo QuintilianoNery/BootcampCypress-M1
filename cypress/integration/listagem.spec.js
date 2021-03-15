@@ -12,17 +12,26 @@ context('Listagem', () => {
             method: 'GET',
             url: '**/api/1/databases/userdetails/collections/newtable?**',
             status: 200,
-            response: []
+            response: 'fx:webtable-get-vazio'
         }).as('getNewtable');
 
         cy.visit('WebTable.html');
+
+        //Validando se existe apenas uma linha na tabela, sendo essa linha o cabeçalho.
+        cy.get('div[role=row]')
+        .should('have.length', 1);
     });
 
 
     //Neste teste eu trago as informações continas na rota para semrem apresantadas na tela vintas em formato JS.
 
     //No sistema da Tecsystem podemos fazer isso para testar o retorno de informações erradas e validar se ao salvar o sistema vai mostrar exatamente as validações necessárias.
-    it.only('Listagem com apenas um registro', () => {
+
+    //posso configurar assim 
+    //response: 'fixture: webtable-get-unico'
+    //response: 'fixture: webtable-get-unico'
+
+    it('Listagem com apenas um registro', () => {
         cy.server();
         cy.route({
             method: 'GET',
@@ -37,18 +46,20 @@ context('Listagem', () => {
                 "Phone": "3199999999",
                 "Gender": "Male"
             }]
+
         }).as('getNewtable');
         cy.visit('WebTable.html');
 
+        //Validando valor de célula
         cy.get('div[role=row] div[role=gridcell]')
             .eq(3)
             //dentro da célula de posição 3 coluna 4 eu quero que pegue o texto que esteja dentro da DIV
             .find('div')
             .as('gridName');
 
-        cy.get('@gridName')
+            //Usando valor da célula que está no aliases
+            cy.get('@gridName')
             .should('contain', 'Quintiliano');
-
 
         //comandos CSS selector
         //1 - .first()
