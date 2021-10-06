@@ -19,7 +19,7 @@ context('Listagem', () => {
 
         //Validando se existe apenas uma linha na tabela, sendo essa linha o cabeçalho.
         cy.get('div[role=row]')
-        .should('have.length', 1);
+            .should('have.length', 1);
     });
 
 
@@ -57,8 +57,8 @@ context('Listagem', () => {
             .find('div')
             .as('gridName');
 
-            //Usando valor da célula que está no aliases
-            cy.get('@gridName')
+        //Usando valor da célula que está no aliases
+        cy.get('@gridName')
             .should('contain', 'Quintiliano');
 
         //comandos CSS selector
@@ -67,5 +67,17 @@ context('Listagem', () => {
         //3 - 
         //4 - .eq(3)
         //5 - .last()
+
+    });
+    it('Teste com cadastro', () => {
+        cy.server()
+        cy.route({
+            method:'POST',
+            URL: '**/api/1/databases/userdetails/collections/newtable?**',
+            status: 200,
+            response:[[
+                
+            ]]
+        })
     });
 });

@@ -55,7 +55,8 @@ context('Cadastro', () => {
         cy.get('input[id=checkbox3]').click();
         //Select -> select & select2
         cy.get('select#Skills').select('Design');
-        cy.get('select#countries').select('Brazil');
+
+        //cy.get('select#countries').select('Brazil');
         //{force:true} faz com que o Cypress continue interagindo com elemento, quando existir span2 e o primeiro oculto
         cy.get('select#country').select('New Zealand', { force: true });
         //cy.get('select#yearbox').select('2015');
