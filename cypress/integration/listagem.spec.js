@@ -57,7 +57,7 @@ context('Listagem', () => {
             .find('div')
             .as('gridName');
 
-            //.as('') - salva em uma variável temporária as informações do seletor
+        //.as('') - salva em uma variável temporária as informações do seletor
 
         //Usando valor da célula que está no aliases
         cy.get('@gridName')
@@ -69,11 +69,9 @@ context('Listagem', () => {
         //3 - 
         //4 - .eq(3)
         //5 - .last() - Ultimo elemento da lista
-        
+
         //find('div') - informa o que pero pegar após selecionar o elemento
 
     });
-
-
 
 });
