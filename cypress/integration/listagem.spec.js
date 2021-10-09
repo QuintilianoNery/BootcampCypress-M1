@@ -57,27 +57,23 @@ context('Listagem', () => {
             .find('div')
             .as('gridName');
 
+            //.as('') - salva em uma variável temporária as informações do seletor
+
         //Usando valor da célula que está no aliases
         cy.get('@gridName')
-            .should('contain', 'Quintiliano');
+            .should('contain.text', 'Quintiliano');
 
         //comandos CSS selector
-        //1 - .first()
+        //1 - .first() - Primeiro elemento da lista
         //2 - 
         //3 - 
         //4 - .eq(3)
-        //5 - .last()
+        //5 - .last() - Ultimo elemento da lista
+        
+        //find('div') - informa o que pero pegar após selecionar o elemento
 
     });
-    it('Teste com cadastro', () => {
-        cy.server()
-        cy.route({
-            method:'POST',
-            URL: '**/api/1/databases/userdetails/collections/newtable?**',
-            status: 200,
-            response:[[
-                
-            ]]
-        })
-    });
+
+
+
 });

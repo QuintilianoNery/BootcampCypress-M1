@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
 
-context('CadastroMock', () => {
+context.skip('CadastroMock', () => {
 it('', () => {
     
 });
