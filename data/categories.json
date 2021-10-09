@@ -6,13 +6,13 @@
       "name" : "Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `postNewtable`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
       "children" : [ {
         "name" : "Cadastro do usuário no site",
-        "uid" : "5465a2a1b3e69dc2",
+        "uid" : "342de5cdaa852bcb",
         "parentUid" : "144714d18f754a52e81b029a21a1e4b2",
         "status" : "failed",
         "time" : {
-          "start" : 1633791752223,
-          "stop" : 1633791770400,
-          "duration" : 18177
+          "start" : 1633791771813,
+          "stop" : 1633791790557,
+          "duration" : 18744
         },
         "flaky" : false,
         "newFailed" : false,

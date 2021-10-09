@@ -1,12 +1,12 @@
 {
-  "uid" : "5465a2a1b3e69dc2",
+  "uid" : "342de5cdaa852bcb",
   "name" : "Cadastro do usuário no site",
   "fullName" : "Cadastro do usuário no site",
   "historyId" : "f334d607097515053332807416f1081a",
   "time" : {
-    "start" : 1633791752223,
-    "stop" : 1633791770400,
-    "duration" : 18177
+    "start" : 1633791771813,
+    "stop" : 1633791790557,
+    "duration" : 18744
   },
   "status" : "failed",
   "statusMessage" : "Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `postNewtable`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
@@ -21,995 +21,965 @@
     "steps" : [ {
       "name" : "server",
       "time" : {
-        "start" : 1633791752289,
-        "stop" : 1633791752291,
+        "start" : 1633791771852,
+        "stop" : 1633791771855,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "route (\"POST\"; \"**/api/1/databases/userdetails/collections/newtable?**\")",
+      "time" : {
+        "start" : 1633791771855,
+        "stop" : 1633791771860,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "as (\"postNewtable\")",
+      "time" : {
+        "start" : 1633791771860,
+        "stop" : 1633791771861,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "route (\"POST\"; \"**/api/1/databases/userdetails/collections/usertable?**\")",
+      "time" : {
+        "start" : 1633791771861,
+        "stop" : 1633791771863,
         "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "route (\"POST\"; \"**/api/1/databases/userdetails/collections/newtable?**\")",
-      "time" : {
-        "start" : 1633791752291,
-        "stop" : 1633791752295,
-        "duration" : 4
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "as (\"postNewtable\")",
-      "time" : {
-        "start" : 1633791752295,
-        "stop" : 1633791752296,
-        "duration" : 1
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "route (\"POST\"; \"**/api/1/databases/userdetails/collections/usertable?**\")",
-      "time" : {
-        "start" : 1633791752296,
-        "stop" : 1633791752303,
-        "duration" : 7
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "shouldDisplayMessage" : false
     }, {
       "name" : "as (\"postUsertable\")",
       "time" : {
-        "start" : 1633791752303,
-        "stop" : 1633791752303,
-        "duration" : 0
+        "start" : 1633791771863,
+        "stop" : 1633791771864,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "shouldDisplayMessage" : false
     }, {
       "name" : "route (\"GET\"; \"**/api/1/databases/userdetails/collections/newtable?**\")",
       "time" : {
-        "start" : 1633791752303,
-        "stop" : 1633791752304,
+        "start" : 1633791771864,
+        "stop" : 1633791771865,
         "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "shouldDisplayMessage" : false
     }, {
       "name" : "as (\"getNewtable\")",
       "time" : {
-        "start" : 1633791752304,
-        "stop" : 1633791752305,
+        "start" : 1633791771865,
+        "stop" : 1633791771866,
         "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "shouldDisplayMessage" : false
     }, {
       "name" : "visit (\"Register.html\")",
       "time" : {
-        "start" : 1633791752305,
-        "stop" : 1633791760500,
-        "duration" : 8195
+        "start" : 1633791771866,
+        "stop" : 1633791779764,
+        "duration" : 7898
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "shouldDisplayMessage" : false
     }, {
       "name" : "GET http://demo.automationtesting.in/Languages.json",
       "time" : {
-        "start" : 1633791760499,
-        "stop" : 1633791760499,
+        "start" : 1633791779762,
+        "stop" : 1633791779762,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "shouldDisplayMessage" : false
     }, {
       "name" : "request",
       "time" : {
-        "start" : 1633791760499,
-        "stop" : 1633791760499,
+        "start" : 1633791779762,
+        "stop" : 1633791779762,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://api.mlab.com/api/1/databases/userdetails/collections/newtable?apiKey=YEX0M2QMPd7JWJw_ipMB3a5gDddt4B_X",
+      "time" : {
+        "start" : 1633791779762,
+        "stop" : 1633791779762,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "request",
+      "time" : {
+        "start" : 1633791779763,
+        "stop" : 1633791779763,
         "duration" : 0
       },
       "status" : "failed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "request",
-      "time" : {
-        "start" : 1633791760500,
-        "stop" : 1633791760500,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "request",
-      "time" : {
-        "start" : 1633791760500,
-        "stop" : 1633791760500,
-        "duration" : 0
-      },
-      "status" : "failed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "shouldDisplayMessage" : false
     }, {
       "name" : "GET http://demo.automationtesting.in/Languages.json",
       "time" : {
-        "start" : 1633791760500,
-        "stop" : 1633791760500,
+        "start" : 1633791779764,
+        "stop" : 1633791779764,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "shouldDisplayMessage" : false
     }, {
-      "name" : "GET http://demo.automationtesting.in/Skills.json",
+      "name" : "request",
       "time" : {
-        "start" : 1633791760500,
-        "stop" : 1633791760500,
+        "start" : 1633791779764,
+        "stop" : 1633791779764,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "shouldDisplayMessage" : false
     }, {
       "name" : "TypeError: Cannot read properties of undefined (reading '0') uncaught exception",
       "time" : {
-        "start" : 1633791760500,
-        "stop" : 1633791760500,
+        "start" : 1633791779764,
+        "stop" : 1633791779764,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "shouldDisplayMessage" : false
     }, {
       "name" : "GET https://pagead2.googlesyndication.com/getconfig/sodar?sv=200&tid=gda&tv=r20211006&st=env",
       "time" : {
-        "start" : 1633791760500,
-        "stop" : 1633791760500,
+        "start" : 1633791779764,
+        "stop" : 1633791779764,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "shouldDisplayMessage" : false
     }, {
       "name" : "get (\"input[placeholder=\"First Name\"]\")",
       "time" : {
-        "start" : 1633791760500,
-        "stop" : 1633791760539,
-        "duration" : 39
+        "start" : 1633791779765,
+        "stop" : 1633791779787,
+        "duration" : 22
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "shouldDisplayMessage" : false
     }, {
-      "name" : "type (\"Lewis\")",
+      "name" : "type (\"Lee\")",
       "time" : {
-        "start" : 1633791760539,
-        "stop" : 1633791760935,
-        "duration" : 396
+        "start" : 1633791779787,
+        "stop" : 1633791780098,
+        "duration" : 311
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "shouldDisplayMessage" : false
     }, {
       "name" : "get (\"input[ng-model=\"LastName\"]\")",
       "time" : {
-        "start" : 1633791760935,
-        "stop" : 1633791760947,
-        "duration" : 12
+        "start" : 1633791780098,
+        "stop" : 1633791780107,
+        "duration" : 9
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "shouldDisplayMessage" : false
     }, {
-      "name" : "type (\"Campolmi\")",
+      "name" : "type (\"McCormick\")",
       "time" : {
-        "start" : 1633791760947,
-        "stop" : 1633791761359,
-        "duration" : 412
+        "start" : 1633791780107,
+        "stop" : 1633791780462,
+        "duration" : 355
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "shouldDisplayMessage" : false
     }, {
       "name" : "get (\"textarea[ng-model^=Adress]\")",
       "time" : {
-        "start" : 1633791761359,
-        "stop" : 1633791761369,
-        "duration" : 10
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "type (\"1204 Lere Avenue\")",
-      "time" : {
-        "start" : 1633791761369,
-        "stop" : 1633791761747,
-        "duration" : 378
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "1204 Lere Avenue request",
-      "time" : {
-        "start" : 1633791761747,
-        "stop" : 1633791761747,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "1204 Lere Avenue request",
-      "time" : {
-        "start" : 1633791761747,
-        "stop" : 1633791761747,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "get (\"input[ng-model^=Email]\")",
-      "time" : {
-        "start" : 1633791761747,
-        "stop" : 1633791761755,
+        "start" : 1633791780462,
+        "stop" : 1633791780470,
         "duration" : 8
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "shouldDisplayMessage" : false
     }, {
-      "name" : "type (\"bejifu@agaiduzo.ar\")",
+      "name" : "type (\"349 Cuniz Lane\")",
       "time" : {
-        "start" : 1633791761755,
-        "stop" : 1633791762139,
-        "duration" : 384
+        "start" : 1633791780470,
+        "stop" : 1633791780864,
+        "duration" : 394
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"input[ng-model^=Email]\")",
+      "time" : {
+        "start" : 1633791780864,
+        "stop" : 1633791780882,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "type (\"nauhu@nus.sl\")",
+      "time" : {
+        "start" : 1633791780882,
+        "stop" : 1633791781427,
+        "duration" : 545
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "get (\"input[ng-model^=Phone]\")",
       "time" : {
-        "start" : 1633791762139,
-        "stop" : 1633791762148,
-        "duration" : 9
+        "start" : 1633791781427,
+        "stop" : 1633791781446,
+        "duration" : 19
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "shouldDisplayMessage" : false
     }, {
-      "name" : "type (\"8683259268\")",
+      "name" : "type (\"2325831731\")",
       "time" : {
-        "start" : 1633791762148,
-        "stop" : 1633791762433,
-        "duration" : 285
+        "start" : 1633791781446,
+        "stop" : 1633791781813,
+        "duration" : 367
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "get (\"input[value^=Male]\")",
-      "time" : {
-        "start" : 1633791762433,
-        "stop" : 1633791762444,
-        "duration" : 11
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "click",
-      "time" : {
-        "start" : 1633791762444,
-        "stop" : 1633791762562,
-        "duration" : 118
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "get (\"input[value=FeMale]\")",
-      "time" : {
-        "start" : 1633791762562,
-        "stop" : 1633791762571,
-        "duration" : 9
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "click",
-      "time" : {
-        "start" : 1633791762571,
-        "stop" : 1633791762677,
-        "duration" : 106
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "shouldDisplayMessage" : false
     }, {
       "name" : "get (\"input[value^=Male]\")",
       "time" : {
-        "start" : 1633791762677,
-        "stop" : 1633791762690,
-        "duration" : 13
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "check",
-      "time" : {
-        "start" : 1633791762690,
-        "stop" : 1633791762790,
-        "duration" : 100
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "get (\"input[type=checkbox]\")",
-      "time" : {
-        "start" : 1633791762790,
-        "stop" : 1633791762803,
-        "duration" : 13
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "check (\"Movies\")",
-      "time" : {
-        "start" : 1633791762803,
-        "stop" : 1633791762915,
-        "duration" : 112
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "get (\"input[type=checkbox]\")",
-      "time" : {
-        "start" : 1633791762915,
-        "stop" : 1633791762949,
+        "start" : 1633791781813,
+        "stop" : 1633791781847,
         "duration" : 34
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "check (\"Hockey\")",
-      "time" : {
-        "start" : 1633791762949,
-        "stop" : 1633791763062,
-        "duration" : 113
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "get (\"input[id=checkbox1]\")",
-      "time" : {
-        "start" : 1633791763062,
-        "stop" : 1633791763072,
-        "duration" : 10
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "shouldDisplayMessage" : false
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1633791763072,
-        "stop" : 1633791763179,
-        "duration" : 107
+        "start" : 1633791781847,
+        "stop" : 1633791781969,
+        "duration" : 122
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"input[value=FeMale]\")",
+      "time" : {
+        "start" : 1633791781969,
+        "stop" : 1633791782005,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1633791782005,
+        "stop" : 1633791782131,
+        "duration" : 126
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"input[value^=Male]\")",
+      "time" : {
+        "start" : 1633791782132,
+        "stop" : 1633791782162,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "check",
+      "time" : {
+        "start" : 1633791782162,
+        "stop" : 1633791782299,
+        "duration" : 137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"input[type=checkbox]\")",
+      "time" : {
+        "start" : 1633791782299,
+        "stop" : 1633791782343,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "check (\"Movies\")",
+      "time" : {
+        "start" : 1633791782343,
+        "stop" : 1633791782474,
+        "duration" : 131
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"input[type=checkbox]\")",
+      "time" : {
+        "start" : 1633791782474,
+        "stop" : 1633791782504,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "check (\"Hockey\")",
+      "time" : {
+        "start" : 1633791782504,
+        "stop" : 1633791782634,
+        "duration" : 130
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"input[id=checkbox1]\")",
+      "time" : {
+        "start" : 1633791782634,
+        "stop" : 1633791782647,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1633791782647,
+        "stop" : 1633791782764,
+        "duration" : 117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "get (\"input[id=checkbox2]\")",
       "time" : {
-        "start" : 1633791763179,
-        "stop" : 1633791763194,
+        "start" : 1633791782764,
+        "stop" : 1633791782777,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1633791782777,
+        "stop" : 1633791782897,
+        "duration" : 120
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"input[id=checkbox3]\")",
+      "time" : {
+        "start" : 1633791782897,
+        "stop" : 1633791782912,
         "duration" : 15
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "shouldDisplayMessage" : false
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1633791763194,
-        "stop" : 1633791763292,
-        "duration" : 98
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "get (\"input[id=checkbox3]\")",
-      "time" : {
-        "start" : 1633791763292,
-        "stop" : 1633791763302,
-        "duration" : 10
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "click",
-      "time" : {
-        "start" : 1633791763302,
-        "stop" : 1633791763407,
-        "duration" : 105
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "get (\"select#Skills\")",
-      "time" : {
-        "start" : 1633791763407,
-        "stop" : 1633791763424,
-        "duration" : 17
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "select (\"Design\")",
-      "time" : {
-        "start" : 1633791763424,
-        "stop" : 1633791763593,
-        "duration" : 169
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "get (\"select#country\")",
-      "time" : {
-        "start" : 1633791763593,
-        "stop" : 1633791763603,
-        "duration" : 10
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "select (\"New Zealand\"; \"[object Object]\")",
-      "time" : {
-        "start" : 1633791763604,
-        "stop" : 1633791763725,
-        "duration" : 121
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "get (\"select#yearbox\")",
-      "time" : {
-        "start" : 1633791763725,
-        "stop" : 1633791763737,
-        "duration" : 12
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "select (\"1971\")",
-      "time" : {
-        "start" : 1633791763737,
-        "stop" : 1633791763920,
-        "duration" : 183
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "get (\"select[ng-model=monthbox]\")",
-      "time" : {
-        "start" : 1633791763920,
-        "stop" : 1633791763932,
-        "duration" : 12
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "select (\"July\")",
-      "time" : {
-        "start" : 1633791763932,
-        "stop" : 1633791764118,
-        "duration" : 186
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "get (\"select#daybox\")",
-      "time" : {
-        "start" : 1633791764118,
-        "stop" : 1633791764129,
-        "duration" : 11
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "select (\"21\")",
-      "time" : {
-        "start" : 1633791764129,
-        "stop" : 1633791764289,
-        "duration" : 160
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "get (\"input#firstpassword\")",
-      "time" : {
-        "start" : 1633791764289,
-        "stop" : 1633791764303,
-        "duration" : 14
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "type (\"Quintiliano2021*\")",
-      "time" : {
-        "start" : 1633791764303,
-        "stop" : 1633791764645,
-        "duration" : 342
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "get (\"input#secondpassword\")",
-      "time" : {
-        "start" : 1633791764645,
-        "stop" : 1633791764656,
-        "duration" : 11
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "type (\"Quintiliano2021*\")",
-      "time" : {
-        "start" : 1633791764656,
-        "stop" : 1633791765015,
-        "duration" : 359
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "get (\"input#imagesrc\")",
-      "time" : {
-        "start" : 1633791765015,
-        "stop" : 1633791765027,
-        "duration" : 12
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "attachFile (\"raio.png\")",
-      "time" : {
-        "start" : 1633791765028,
-        "stop" : 1633791765057,
-        "duration" : 29
-      },
-      "status" : "passed",
-      "steps" : [ {
-        "name" : "fixture (\"raio.png\"; \"base64\")",
-        "time" : {
-          "start" : 1633791765030,
-          "stop" : 1633791765046,
-          "duration" : 16
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "stepsCount" : 0,
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "hasContent" : false
-      }, {
-        "name" : "raio.png attachFile",
-        "time" : {
-          "start" : 1633791765057,
-          "stop" : 1633791765057,
-          "duration" : 0
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "stepsCount" : 0,
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "hasContent" : false
-      } ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 2,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
-    }, {
-      "name" : "get (\"button[id=submitbtn]\")",
-      "time" : {
-        "start" : 1633791765057,
-        "stop" : 1633791765078,
-        "duration" : 21
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "click",
-      "time" : {
-        "start" : 1633791765078,
-        "stop" : 1633791765219,
+        "start" : 1633791782912,
+        "stop" : 1633791783053,
         "duration" : 141
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"select#Skills\")",
+      "time" : {
+        "start" : 1633791783053,
+        "stop" : 1633791783078,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "select (\"Design\")",
+      "time" : {
+        "start" : 1633791783078,
+        "stop" : 1633791783260,
+        "duration" : 182
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"select#country\")",
+      "time" : {
+        "start" : 1633791783260,
+        "stop" : 1633791783286,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "select (\"New Zealand\"; \"[object Object]\")",
+      "time" : {
+        "start" : 1633791783286,
+        "stop" : 1633791783417,
+        "duration" : 131
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"select#yearbox\")",
+      "time" : {
+        "start" : 1633791783417,
+        "stop" : 1633791783454,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "select (\"1986\")",
+      "time" : {
+        "start" : 1633791783454,
+        "stop" : 1633791783731,
+        "duration" : 277
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"select[ng-model=monthbox]\")",
+      "time" : {
+        "start" : 1633791783731,
+        "stop" : 1633791783749,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "select (\"August\")",
+      "time" : {
+        "start" : 1633791783749,
+        "stop" : 1633791783931,
+        "duration" : 182
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"select#daybox\")",
+      "time" : {
+        "start" : 1633791783931,
+        "stop" : 1633791783953,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "select (\"21\")",
+      "time" : {
+        "start" : 1633791783953,
+        "stop" : 1633791784159,
+        "duration" : 206
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"input#firstpassword\")",
+      "time" : {
+        "start" : 1633791784159,
+        "stop" : 1633791784192,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "type (\"Quintiliano2021*\")",
+      "time" : {
+        "start" : 1633791784192,
+        "stop" : 1633791784618,
+        "duration" : 426
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"input#secondpassword\")",
+      "time" : {
+        "start" : 1633791784618,
+        "stop" : 1633791784635,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "type (\"Quintiliano2021*\")",
+      "time" : {
+        "start" : 1633791784635,
+        "stop" : 1633791785058,
+        "duration" : 423
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"input#imagesrc\")",
+      "time" : {
+        "start" : 1633791785058,
+        "stop" : 1633791785076,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "attachFile (\"raio.png\")",
+      "time" : {
+        "start" : 1633791785076,
+        "stop" : 1633791785121,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "fixture (\"raio.png\"; \"base64\")",
+        "time" : {
+          "start" : 1633791785079,
+          "stop" : 1633791785104,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "raio.png attachFile",
+        "time" : {
+          "start" : 1633791785121,
+          "stop" : 1633791785121,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"button[id=submitbtn]\")",
+      "time" : {
+        "start" : 1633791785122,
+        "stop" : 1633791785141,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1633791785141,
+        "stop" : 1633791785290,
+        "duration" : 149
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "wait (\"@postNewtable\")",
       "time" : {
-        "start" : 1633791765219,
-        "stop" : 1633791770259,
-        "duration" : 5040
+        "start" : 1633791785290,
+        "stop" : 1633791790348,
+        "duration" : 5058
       },
       "status" : "failed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ {
       "name" : "cadastro.spec.js.mp4",
       "type" : "video/mp4",
       "size" : 0
     }, {
-      "uid" : "e80e2bedf1771ff6",
-      "name" : "cadastro.spec.js:2021-10-09T15:02:50.263Z",
-      "source" : "e80e2bedf1771ff6.png",
+      "uid" : "c2a88c9cf876259",
+      "name" : "cadastro.spec.js:2021-10-09T15:03:10.356Z",
+      "source" : "c2a88c9cf876259.png",
       "type" : "image/png",
-      "size" : 136983
+      "size" : 125588
     } ],
     "parameters" : [ ],
-    "stepsCount" : 65,
+    "hasContent" : true,
+    "stepsCount" : 63,
     "attachmentsCount" : 2,
-    "shouldDisplayMessage" : true,
-    "hasContent" : true
+    "shouldDisplayMessage" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -1033,6 +1003,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "5465a2a1b3e69dc2.json",
+  "source" : "342de5cdaa852bcb.json",
   "parameterValues" : [ ]
 }
