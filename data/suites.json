@@ -1,52 +1,5 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
-  "children" : [ {
-    "name" : "Cadastro",
-    "children" : [ {
-      "name" : "Cadastro do usuário no site",
-      "uid" : "342de5cdaa852bcb",
-      "parentUid" : "de2ab1b6520747037939cd4a650da7de",
-      "status" : "failed",
-      "time" : {
-        "start" : 1633791771813,
-        "stop" : 1633791790557,
-        "duration" : 18744
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "de2ab1b6520747037939cd4a650da7de"
-  }, {
-    "name" : "Listagem",
-    "children" : [ {
-      "name" : "Listagem sem registros",
-      "uid" : "14cbb8aa014595e1",
-      "parentUid" : "b0e5ff42752bfa4a9da4963e258fa3c2",
-      "status" : "passed",
-      "time" : {
-        "start" : 1633791806888,
-        "stop" : 1633791814284,
-        "duration" : 7396
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Listagem com apenas um registro",
-      "uid" : "34dbb4aa9198bee7",
-      "parentUid" : "b0e5ff42752bfa4a9da4963e258fa3c2",
-      "status" : "passed",
-      "time" : {
-        "start" : 1633791814323,
-        "stop" : 1633791815577,
-        "duration" : 1254
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "b0e5ff42752bfa4a9da4963e258fa3c2"
-  } ],
+  "children" : [ ],
   "name" : "suites"
 }
