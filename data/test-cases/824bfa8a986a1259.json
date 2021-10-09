@@ -1,12 +1,12 @@
 {
-  "uid" : "ecad8396bb78f2ba",
+  "uid" : "824bfa8a986a1259",
   "name" : "Cadastro do usuário no site",
   "fullName" : "Cadastro do usuário no site",
   "historyId" : "f334d607097515053332807416f1081a",
   "time" : {
-    "start" : 1633788794052,
-    "stop" : 1633788811111,
-    "duration" : 17059
+    "start" : 1633788938390,
+    "stop" : 1633788958338,
+    "duration" : 19948
   },
   "status" : "failed",
   "statusMessage" : "Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `postNewtable`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
@@ -21,8 +21,8 @@
     "steps" : [ {
       "name" : "server",
       "time" : {
-        "start" : 1633788794089,
-        "stop" : 1633788794092,
+        "start" : 1633788938422,
+        "stop" : 1633788938425,
         "duration" : 3
       },
       "status" : "passed",
@@ -36,8 +36,8 @@
     }, {
       "name" : "route (\"POST\"; \"**/api/1/databases/userdetails/collections/newtable?**\")",
       "time" : {
-        "start" : 1633788794092,
-        "stop" : 1633788794096,
+        "start" : 1633788938425,
+        "stop" : 1633788938429,
         "duration" : 4
       },
       "status" : "passed",
@@ -51,8 +51,8 @@
     }, {
       "name" : "as (\"postNewtable\")",
       "time" : {
-        "start" : 1633788794096,
-        "stop" : 1633788794097,
+        "start" : 1633788938429,
+        "stop" : 1633788938430,
         "duration" : 1
       },
       "status" : "passed",
@@ -66,8 +66,8 @@
     }, {
       "name" : "route (\"POST\"; \"**/api/1/databases/userdetails/collections/usertable?**\")",
       "time" : {
-        "start" : 1633788794097,
-        "stop" : 1633788794098,
+        "start" : 1633788938430,
+        "stop" : 1633788938431,
         "duration" : 1
       },
       "status" : "passed",
@@ -81,8 +81,8 @@
     }, {
       "name" : "as (\"postUsertable\")",
       "time" : {
-        "start" : 1633788794098,
-        "stop" : 1633788794099,
+        "start" : 1633788938431,
+        "stop" : 1633788938432,
         "duration" : 1
       },
       "status" : "passed",
@@ -96,8 +96,8 @@
     }, {
       "name" : "route (\"GET\"; \"**/api/1/databases/userdetails/collections/newtable?**\")",
       "time" : {
-        "start" : 1633788794099,
-        "stop" : 1633788794100,
+        "start" : 1633788938432,
+        "stop" : 1633788938433,
         "duration" : 1
       },
       "status" : "passed",
@@ -111,8 +111,8 @@
     }, {
       "name" : "as (\"getNewtable\")",
       "time" : {
-        "start" : 1633788794100,
-        "stop" : 1633788794100,
+        "start" : 1633788938433,
+        "stop" : 1633788938433,
         "duration" : 0
       },
       "status" : "passed",
@@ -126,9 +126,9 @@
     }, {
       "name" : "visit (\"Register.html\")",
       "time" : {
-        "start" : 1633788794100,
-        "stop" : 1633788800692,
-        "duration" : 6592
+        "start" : 1633788938433,
+        "stop" : 1633788947992,
+        "duration" : 9559
       },
       "status" : "passed",
       "steps" : [ ],
@@ -141,8 +141,8 @@
     }, {
       "name" : "GET http://demo.automationtesting.in/Languages.json",
       "time" : {
-        "start" : 1633788800690,
-        "stop" : 1633788800690,
+        "start" : 1633788947990,
+        "stop" : 1633788947990,
         "duration" : 0
       },
       "status" : "passed",
@@ -156,26 +156,11 @@
     }, {
       "name" : "request",
       "time" : {
-        "start" : 1633788800690,
-        "stop" : 1633788800690,
+        "start" : 1633788947990,
+        "stop" : 1633788947990,
         "duration" : 0
       },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "GET https://api.mlab.com/api/1/databases/userdetails/collections/newtable?apiKey=YEX0M2QMPd7JWJw_ipMB3a5gDddt4B_X",
-      "time" : {
-        "start" : 1633788800690,
-        "stop" : 1633788800690,
-        "duration" : 0
-      },
-      "status" : "passed",
+      "status" : "failed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
@@ -186,8 +171,23 @@
     }, {
       "name" : "request",
       "time" : {
-        "start" : 1633788800691,
-        "stop" : 1633788800691,
+        "start" : 1633788947991,
+        "stop" : 1633788947991,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "request",
+      "time" : {
+        "start" : 1633788947991,
+        "stop" : 1633788947991,
         "duration" : 0
       },
       "status" : "failed",
@@ -201,8 +201,8 @@
     }, {
       "name" : "GET http://demo.automationtesting.in/Languages.json",
       "time" : {
-        "start" : 1633788800691,
-        "stop" : 1633788800691,
+        "start" : 1633788947991,
+        "stop" : 1633788947991,
         "duration" : 0
       },
       "status" : "passed",
@@ -214,10 +214,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "GET http://demo.automationtesting.in/Skills.json",
+      "name" : "request",
       "time" : {
-        "start" : 1633788800691,
-        "stop" : 1633788800691,
+        "start" : 1633788947991,
+        "stop" : 1633788947991,
         "duration" : 0
       },
       "status" : "passed",
@@ -231,8 +231,8 @@
     }, {
       "name" : "TypeError: Cannot read properties of undefined (reading '0') uncaught exception",
       "time" : {
-        "start" : 1633788800691,
-        "stop" : 1633788800691,
+        "start" : 1633788947991,
+        "stop" : 1633788947991,
         "duration" : 0
       },
       "status" : "passed",
@@ -244,10 +244,25 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "GET https://pagead2.googlesyndication.com/getconfig/sodar?sv=200&tid=gda&tv=r20211006&st=env",
+      "name" : "Register.html request",
       "time" : {
-        "start" : 1633788800691,
-        "stop" : 1633788800691,
+        "start" : 1633788947991,
+        "stop" : 1633788947991,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://pagead2.googlesyndication.com/getconfig/sodar?sv=200&tid=gda&tv=r20211007&st=env",
+      "time" : {
+        "start" : 1633788947992,
+        "stop" : 1633788947992,
         "duration" : 0
       },
       "status" : "passed",
@@ -261,9 +276,9 @@
     }, {
       "name" : "get (\"input[placeholder=\"First Name\"]\")",
       "time" : {
-        "start" : 1633788800692,
-        "stop" : 1633788800714,
-        "duration" : 22
+        "start" : 1633788947992,
+        "stop" : 1633788948010,
+        "duration" : 18
       },
       "status" : "passed",
       "steps" : [ ],
@@ -274,11 +289,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "type (\"Jimmy\")",
+      "name" : "type (\"Effie\")",
       "time" : {
-        "start" : 1633788800714,
-        "stop" : 1633788801139,
-        "duration" : 425
+        "start" : 1633788948010,
+        "stop" : 1633788948481,
+        "duration" : 471
       },
       "status" : "passed",
       "steps" : [ ],
@@ -291,9 +306,9 @@
     }, {
       "name" : "get (\"input[ng-model=\"LastName\"]\")",
       "time" : {
-        "start" : 1633788801139,
-        "stop" : 1633788801158,
-        "duration" : 19
+        "start" : 1633788948481,
+        "stop" : 1633788948488,
+        "duration" : 7
       },
       "status" : "passed",
       "steps" : [ ],
@@ -304,11 +319,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "type (\"Duval\")",
+      "name" : "type (\"Perez\")",
       "time" : {
-        "start" : 1633788801158,
-        "stop" : 1633788801399,
-        "duration" : 241
+        "start" : 1633788948488,
+        "stop" : 1633788948712,
+        "duration" : 224
       },
       "status" : "passed",
       "steps" : [ ],
@@ -321,9 +336,9 @@
     }, {
       "name" : "get (\"textarea[ng-model^=Adress]\")",
       "time" : {
-        "start" : 1633788801399,
-        "stop" : 1633788801432,
-        "duration" : 33
+        "start" : 1633788948712,
+        "stop" : 1633788948722,
+        "duration" : 10
       },
       "status" : "passed",
       "steps" : [ ],
@@ -334,11 +349,26 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "type (\"1128 Salub Circle\")",
+      "name" : "type (\"1439 Bomwa Trail\")",
       "time" : {
-        "start" : 1633788801433,
-        "stop" : 1633788801842,
-        "duration" : 409
+        "start" : 1633788948722,
+        "stop" : 1633788949363,
+        "duration" : 641
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "1439 Bomwa Trail request",
+      "time" : {
+        "start" : 1633788949363,
+        "stop" : 1633788949363,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -351,9 +381,9 @@
     }, {
       "name" : "get (\"input[ng-model^=Email]\")",
       "time" : {
-        "start" : 1633788801842,
-        "stop" : 1633788801864,
-        "duration" : 22
+        "start" : 1633788949363,
+        "stop" : 1633788949371,
+        "duration" : 8
       },
       "status" : "passed",
       "steps" : [ ],
@@ -364,11 +394,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "type (\"ha@ukkirki.tk\")",
+      "name" : "type (\"sij@ijabo.sx\")",
       "time" : {
-        "start" : 1633788801864,
-        "stop" : 1633788802396,
-        "duration" : 532
+        "start" : 1633788949371,
+        "stop" : 1633788949702,
+        "duration" : 331
       },
       "status" : "passed",
       "steps" : [ ],
@@ -381,9 +411,9 @@
     }, {
       "name" : "get (\"input[ng-model^=Phone]\")",
       "time" : {
-        "start" : 1633788802396,
-        "stop" : 1633788802403,
-        "duration" : 7
+        "start" : 1633788949702,
+        "stop" : 1633788949723,
+        "duration" : 21
       },
       "status" : "passed",
       "steps" : [ ],
@@ -394,11 +424,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "type (\"6015594712\")",
+      "name" : "type (\"8722745841\")",
       "time" : {
-        "start" : 1633788802403,
-        "stop" : 1633788802726,
-        "duration" : 323
+        "start" : 1633788949723,
+        "stop" : 1633788950008,
+        "duration" : 285
       },
       "status" : "passed",
       "steps" : [ ],
@@ -411,9 +441,9 @@
     }, {
       "name" : "get (\"input[value^=Male]\")",
       "time" : {
-        "start" : 1633788802726,
-        "stop" : 1633788802736,
-        "duration" : 10
+        "start" : 1633788950008,
+        "stop" : 1633788950026,
+        "duration" : 18
       },
       "status" : "passed",
       "steps" : [ ],
@@ -426,9 +456,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1633788802736,
-        "stop" : 1633788802851,
-        "duration" : 115
+        "start" : 1633788950026,
+        "stop" : 1633788950144,
+        "duration" : 118
       },
       "status" : "passed",
       "steps" : [ ],
@@ -441,8 +471,8 @@
     }, {
       "name" : "get (\"input[value=FeMale]\")",
       "time" : {
-        "start" : 1633788802851,
-        "stop" : 1633788802861,
+        "start" : 1633788950144,
+        "stop" : 1633788950154,
         "duration" : 10
       },
       "status" : "passed",
@@ -456,9 +486,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1633788802861,
-        "stop" : 1633788802988,
-        "duration" : 127
+        "start" : 1633788950154,
+        "stop" : 1633788950268,
+        "duration" : 114
       },
       "status" : "passed",
       "steps" : [ ],
@@ -471,9 +501,9 @@
     }, {
       "name" : "get (\"input[value^=Male]\")",
       "time" : {
-        "start" : 1633788802988,
-        "stop" : 1633788803001,
-        "duration" : 13
+        "start" : 1633788950268,
+        "stop" : 1633788950279,
+        "duration" : 11
       },
       "status" : "passed",
       "steps" : [ ],
@@ -486,9 +516,9 @@
     }, {
       "name" : "check",
       "time" : {
-        "start" : 1633788803001,
-        "stop" : 1633788803128,
-        "duration" : 127
+        "start" : 1633788950279,
+        "stop" : 1633788950394,
+        "duration" : 115
       },
       "status" : "passed",
       "steps" : [ ],
@@ -501,9 +531,9 @@
     }, {
       "name" : "get (\"input[type=checkbox]\")",
       "time" : {
-        "start" : 1633788803128,
-        "stop" : 1633788803147,
-        "duration" : 19
+        "start" : 1633788950394,
+        "stop" : 1633788950408,
+        "duration" : 14
       },
       "status" : "passed",
       "steps" : [ ],
@@ -516,9 +546,9 @@
     }, {
       "name" : "check (\"Movies\")",
       "time" : {
-        "start" : 1633788803147,
-        "stop" : 1633788803257,
-        "duration" : 110
+        "start" : 1633788950408,
+        "stop" : 1633788950534,
+        "duration" : 126
       },
       "status" : "passed",
       "steps" : [ ],
@@ -531,9 +561,9 @@
     }, {
       "name" : "get (\"input[type=checkbox]\")",
       "time" : {
-        "start" : 1633788803257,
-        "stop" : 1633788803285,
-        "duration" : 28
+        "start" : 1633788950535,
+        "stop" : 1633788950559,
+        "duration" : 24
       },
       "status" : "passed",
       "steps" : [ ],
@@ -546,9 +576,9 @@
     }, {
       "name" : "check (\"Hockey\")",
       "time" : {
-        "start" : 1633788803285,
-        "stop" : 1633788803407,
-        "duration" : 122
+        "start" : 1633788950559,
+        "stop" : 1633788950683,
+        "duration" : 124
       },
       "status" : "passed",
       "steps" : [ ],
@@ -561,8 +591,8 @@
     }, {
       "name" : "get (\"input[id=checkbox1]\")",
       "time" : {
-        "start" : 1633788803407,
-        "stop" : 1633788803418,
+        "start" : 1633788950683,
+        "stop" : 1633788950694,
         "duration" : 11
       },
       "status" : "passed",
@@ -576,9 +606,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1633788803418,
-        "stop" : 1633788803540,
-        "duration" : 122
+        "start" : 1633788950694,
+        "stop" : 1633788950811,
+        "duration" : 117
       },
       "status" : "passed",
       "steps" : [ ],
@@ -591,9 +621,9 @@
     }, {
       "name" : "get (\"input[id=checkbox2]\")",
       "time" : {
-        "start" : 1633788803540,
-        "stop" : 1633788803557,
-        "duration" : 17
+        "start" : 1633788950811,
+        "stop" : 1633788950823,
+        "duration" : 12
       },
       "status" : "passed",
       "steps" : [ ],
@@ -606,9 +636,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1633788803557,
-        "stop" : 1633788803682,
-        "duration" : 125
+        "start" : 1633788950823,
+        "stop" : 1633788950931,
+        "duration" : 108
       },
       "status" : "passed",
       "steps" : [ ],
@@ -621,9 +651,9 @@
     }, {
       "name" : "get (\"input[id=checkbox3]\")",
       "time" : {
-        "start" : 1633788803682,
-        "stop" : 1633788803697,
-        "duration" : 15
+        "start" : 1633788950931,
+        "stop" : 1633788950959,
+        "duration" : 28
       },
       "status" : "passed",
       "steps" : [ ],
@@ -636,9 +666,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1633788803697,
-        "stop" : 1633788803817,
-        "duration" : 120
+        "start" : 1633788950959,
+        "stop" : 1633788951070,
+        "duration" : 111
       },
       "status" : "passed",
       "steps" : [ ],
@@ -651,8 +681,8 @@
     }, {
       "name" : "get (\"select#Skills\")",
       "time" : {
-        "start" : 1633788803817,
-        "stop" : 1633788803830,
+        "start" : 1633788951070,
+        "stop" : 1633788951083,
         "duration" : 13
       },
       "status" : "passed",
@@ -666,9 +696,9 @@
     }, {
       "name" : "select (\"Design\")",
       "time" : {
-        "start" : 1633788803830,
-        "stop" : 1633788804030,
-        "duration" : 200
+        "start" : 1633788951083,
+        "stop" : 1633788951265,
+        "duration" : 182
       },
       "status" : "passed",
       "steps" : [ ],
@@ -681,9 +711,9 @@
     }, {
       "name" : "get (\"select#country\")",
       "time" : {
-        "start" : 1633788804030,
-        "stop" : 1633788804049,
-        "duration" : 19
+        "start" : 1633788951265,
+        "stop" : 1633788951276,
+        "duration" : 11
       },
       "status" : "passed",
       "steps" : [ ],
@@ -696,9 +726,9 @@
     }, {
       "name" : "select (\"New Zealand\"; \"[object Object]\")",
       "time" : {
-        "start" : 1633788804049,
-        "stop" : 1633788804170,
-        "duration" : 121
+        "start" : 1633788951276,
+        "stop" : 1633788951408,
+        "duration" : 132
       },
       "status" : "passed",
       "steps" : [ ],
@@ -711,9 +741,9 @@
     }, {
       "name" : "get (\"select#yearbox\")",
       "time" : {
-        "start" : 1633788804170,
-        "stop" : 1633788804184,
-        "duration" : 14
+        "start" : 1633788951408,
+        "stop" : 1633788951424,
+        "duration" : 16
       },
       "status" : "passed",
       "steps" : [ ],
@@ -724,11 +754,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "select (\"1980\")",
+      "name" : "select (\"1971\")",
       "time" : {
-        "start" : 1633788804184,
-        "stop" : 1633788804364,
-        "duration" : 180
+        "start" : 1633788951424,
+        "stop" : 1633788951618,
+        "duration" : 194
       },
       "status" : "passed",
       "steps" : [ ],
@@ -741,9 +771,9 @@
     }, {
       "name" : "get (\"select[ng-model=monthbox]\")",
       "time" : {
-        "start" : 1633788804364,
-        "stop" : 1633788804377,
-        "duration" : 13
+        "start" : 1633788951618,
+        "stop" : 1633788951651,
+        "duration" : 33
       },
       "status" : "passed",
       "steps" : [ ],
@@ -756,9 +786,9 @@
     }, {
       "name" : "select (\"April\")",
       "time" : {
-        "start" : 1633788804377,
-        "stop" : 1633788804554,
-        "duration" : 177
+        "start" : 1633788951651,
+        "stop" : 1633788951871,
+        "duration" : 220
       },
       "status" : "passed",
       "steps" : [ ],
@@ -771,9 +801,9 @@
     }, {
       "name" : "get (\"select#daybox\")",
       "time" : {
-        "start" : 1633788804554,
-        "stop" : 1633788804595,
-        "duration" : 41
+        "start" : 1633788951871,
+        "stop" : 1633788951901,
+        "duration" : 30
       },
       "status" : "passed",
       "steps" : [ ],
@@ -786,9 +816,9 @@
     }, {
       "name" : "select (\"21\")",
       "time" : {
-        "start" : 1633788804595,
-        "stop" : 1633788804864,
-        "duration" : 269
+        "start" : 1633788951901,
+        "stop" : 1633788952084,
+        "duration" : 183
       },
       "status" : "passed",
       "steps" : [ ],
@@ -801,9 +831,9 @@
     }, {
       "name" : "get (\"input#firstpassword\")",
       "time" : {
-        "start" : 1633788804864,
-        "stop" : 1633788804887,
-        "duration" : 23
+        "start" : 1633788952084,
+        "stop" : 1633788952097,
+        "duration" : 13
       },
       "status" : "passed",
       "steps" : [ ],
@@ -816,9 +846,9 @@
     }, {
       "name" : "type (\"Quintiliano2021*\")",
       "time" : {
-        "start" : 1633788804888,
-        "stop" : 1633788805272,
-        "duration" : 384
+        "start" : 1633788952097,
+        "stop" : 1633788952468,
+        "duration" : 371
       },
       "status" : "passed",
       "steps" : [ ],
@@ -831,9 +861,9 @@
     }, {
       "name" : "get (\"input#secondpassword\")",
       "time" : {
-        "start" : 1633788805272,
-        "stop" : 1633788805287,
-        "duration" : 15
+        "start" : 1633788952468,
+        "stop" : 1633788952484,
+        "duration" : 16
       },
       "status" : "passed",
       "steps" : [ ],
@@ -846,9 +876,9 @@
     }, {
       "name" : "type (\"Quintiliano2021*\")",
       "time" : {
-        "start" : 1633788805287,
-        "stop" : 1633788805682,
-        "duration" : 395
+        "start" : 1633788952484,
+        "stop" : 1633788952857,
+        "duration" : 373
       },
       "status" : "passed",
       "steps" : [ ],
@@ -861,9 +891,9 @@
     }, {
       "name" : "get (\"input#imagesrc\")",
       "time" : {
-        "start" : 1633788805682,
-        "stop" : 1633788805700,
-        "duration" : 18
+        "start" : 1633788952857,
+        "stop" : 1633788952869,
+        "duration" : 12
       },
       "status" : "passed",
       "steps" : [ ],
@@ -876,17 +906,17 @@
     }, {
       "name" : "attachFile (\"raio.png\")",
       "time" : {
-        "start" : 1633788805700,
-        "stop" : 1633788805735,
-        "duration" : 35
+        "start" : 1633788952869,
+        "stop" : 1633788952942,
+        "duration" : 73
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "fixture (\"raio.png\"; \"base64\")",
         "time" : {
-          "start" : 1633788805703,
-          "stop" : 1633788805723,
-          "duration" : 20
+          "start" : 1633788952871,
+          "stop" : 1633788952914,
+          "duration" : 43
         },
         "status" : "passed",
         "steps" : [ ],
@@ -899,8 +929,8 @@
       }, {
         "name" : "raio.png attachFile",
         "time" : {
-          "start" : 1633788805735,
-          "stop" : 1633788805735,
+          "start" : 1633788952941,
+          "stop" : 1633788952941,
           "duration" : 0
         },
         "status" : "passed",
@@ -921,9 +951,9 @@
     }, {
       "name" : "get (\"button[id=submitbtn]\")",
       "time" : {
-        "start" : 1633788805736,
-        "stop" : 1633788805752,
-        "duration" : 16
+        "start" : 1633788952942,
+        "stop" : 1633788952955,
+        "duration" : 13
       },
       "status" : "passed",
       "steps" : [ ],
@@ -936,9 +966,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1633788805753,
-        "stop" : 1633788805893,
-        "duration" : 140
+        "start" : 1633788952955,
+        "stop" : 1633788953086,
+        "duration" : 131
       },
       "status" : "passed",
       "steps" : [ ],
@@ -951,9 +981,9 @@
     }, {
       "name" : "wait (\"@postNewtable\")",
       "time" : {
-        "start" : 1633788805893,
-        "stop" : 1633788810929,
-        "duration" : 5036
+        "start" : 1633788953086,
+        "stop" : 1633788958148,
+        "duration" : 5062
       },
       "status" : "failed",
       "steps" : [ ],
@@ -969,14 +999,14 @@
       "type" : "video/mp4",
       "size" : 0
     }, {
-      "uid" : "ceddf181cb451678",
-      "name" : "cadastro.spec.js:2021-10-09T14:13:30.935Z",
-      "source" : "ceddf181cb451678.png",
+      "uid" : "c50e50b654d28c6",
+      "name" : "cadastro.spec.js:2021-10-09T14:15:58.154Z",
+      "source" : "c50e50b654d28c6.png",
       "type" : "image/png",
-      "size" : 125008
+      "size" : 147596
     } ],
     "parameters" : [ ],
-    "stepsCount" : 63,
+    "stepsCount" : 65,
     "attachmentsCount" : 2,
     "shouldDisplayMessage" : true,
     "hasContent" : true
@@ -1003,6 +1033,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "ecad8396bb78f2ba.json",
+  "source" : "824bfa8a986a1259.json",
   "parameterValues" : [ ]
 }

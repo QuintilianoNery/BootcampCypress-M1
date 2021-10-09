@@ -1,30 +1,30 @@
 [ {
-  "uid" : "ecad8396bb78f2ba",
-  "name" : "Cadastro do usuário no site",
+  "uid" : "d989b256208e33ad",
+  "name" : "Listagem sem registros",
   "time" : {
-    "start" : 1633788794052,
-    "stop" : 1633788811111,
-    "duration" : 17059
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "a8c4063549d47a44",
-  "name" : "Listagem com apenas um registro",
-  "time" : {
-    "start" : 1633788830812,
-    "stop" : 1633788832266,
-    "duration" : 1454
+    "start" : 1633788972452,
+    "stop" : 1633788981030,
+    "duration" : 8578
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3520fdea90b181ab",
-  "name" : "Listagem sem registros",
+  "uid" : "824bfa8a986a1259",
+  "name" : "Cadastro do usuário no site",
   "time" : {
-    "start" : 1633788823362,
-    "stop" : 1633788830759,
-    "duration" : 7397
+    "start" : 1633788938390,
+    "stop" : 1633788958338,
+    "duration" : 19948
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "74e78654c519a81b",
+  "name" : "Listagem com apenas um registro",
+  "time" : {
+    "start" : 1633788981090,
+    "stop" : 1633788982787,
+    "duration" : 1697
   },
   "status" : "passed",
   "severity" : "normal"

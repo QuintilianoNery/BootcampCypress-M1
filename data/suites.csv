@@ -1,4 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Sat Oct 09 14:13:14 GMT 2021","Sat Oct 09 14:13:31 GMT 2021","17059","","Cadastro","","","","Cadastro do usuário no site",""
-"passed","Sat Oct 09 14:13:50 GMT 2021","Sat Oct 09 14:13:52 GMT 2021","1454","","Listagem","","","","Listagem com apenas um registro",""
-"passed","Sat Oct 09 14:13:43 GMT 2021","Sat Oct 09 14:13:50 GMT 2021","7397","","Listagem","","","","Listagem sem registros",""
+"passed","Sat Oct 09 14:16:12 GMT 2021","Sat Oct 09 14:16:21 GMT 2021","8578","","Listagem","","","","Listagem sem registros",""
+"failed","Sat Oct 09 14:15:38 GMT 2021","Sat Oct 09 14:15:58 GMT 2021","19948","","Cadastro","","","","Cadastro do usuário no site",""
+"passed","Sat Oct 09 14:16:21 GMT 2021","Sat Oct 09 14:16:22 GMT 2021","1697","","Listagem","","","","Listagem com apenas um registro",""

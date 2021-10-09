@@ -1,12 +1,12 @@
 {
-  "uid" : "3520fdea90b181ab",
+  "uid" : "d989b256208e33ad",
   "name" : "Listagem sem registros",
   "fullName" : "Listagem sem registros",
   "historyId" : "9629a5613052fba26cadfd39a3d8cdb1",
   "time" : {
-    "start" : 1633788823362,
-    "stop" : 1633788830759,
-    "duration" : 7397
+    "start" : 1633788972452,
+    "stop" : 1633788981030,
+    "duration" : 8578
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,9 +17,9 @@
     "steps" : [ {
       "name" : "server",
       "time" : {
-        "start" : 1633788823393,
-        "stop" : 1633788823395,
-        "duration" : 2
+        "start" : 1633788972499,
+        "stop" : 1633788972502,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -32,9 +32,9 @@
     }, {
       "name" : "route (\"[object Object]\")",
       "time" : {
-        "start" : 1633788823396,
-        "stop" : 1633788823400,
-        "duration" : 4
+        "start" : 1633788972502,
+        "stop" : 1633788972505,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -47,8 +47,8 @@
     }, {
       "name" : "as (\"getNewtable\")",
       "time" : {
-        "start" : 1633788823400,
-        "stop" : 1633788823401,
+        "start" : 1633788972505,
+        "stop" : 1633788972506,
         "duration" : 1
       },
       "status" : "passed",
@@ -62,9 +62,9 @@
     }, {
       "name" : "visit (\"WebTable.html\")",
       "time" : {
-        "start" : 1633788823401,
-        "stop" : 1633788830692,
-        "duration" : 7291
+        "start" : 1633788972506,
+        "stop" : 1633788980949,
+        "duration" : 8443
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,8 +77,8 @@
     }, {
       "name" : "STUBBED GET https://api.mlab.com/api/1/databases/userdetails/collections/newtable?apiKey=YEX0M2QMPd7JWJw_ipMB3a5gDddt4B_X",
       "time" : {
-        "start" : 1633788830690,
-        "stop" : 1633788830690,
+        "start" : 1633788980948,
+        "stop" : 1633788980948,
         "duration" : 0
       },
       "status" : "passed",
@@ -92,8 +92,8 @@
     }, {
       "name" : "STUBBED GET https://api.mlab.com/api/1/databases/userdetails/collections/newtable?apiKey=YEX0M2QMPd7JWJw_ipMB3a5gDddt4B_X",
       "time" : {
-        "start" : 1633788830690,
-        "stop" : 1633788830690,
+        "start" : 1633788980948,
+        "stop" : 1633788980948,
         "duration" : 0
       },
       "status" : "passed",
@@ -107,8 +107,8 @@
     }, {
       "name" : "request",
       "time" : {
-        "start" : 1633788830690,
-        "stop" : 1633788830690,
+        "start" : 1633788980948,
+        "stop" : 1633788980948,
         "duration" : 0
       },
       "status" : "failed",
@@ -122,8 +122,8 @@
     }, {
       "name" : "request",
       "time" : {
-        "start" : 1633788830691,
-        "stop" : 1633788830691,
+        "start" : 1633788980948,
+        "stop" : 1633788980948,
         "duration" : 0
       },
       "status" : "failed",
@@ -137,8 +137,8 @@
     }, {
       "name" : "request",
       "time" : {
-        "start" : 1633788830691,
-        "stop" : 1633788830691,
+        "start" : 1633788980949,
+        "stop" : 1633788980949,
         "duration" : 0
       },
       "status" : "passed",
@@ -152,8 +152,8 @@
     }, {
       "name" : "request",
       "time" : {
-        "start" : 1633788830691,
-        "stop" : 1633788830691,
+        "start" : 1633788980949,
+        "stop" : 1633788980949,
         "duration" : 0
       },
       "status" : "passed",
@@ -167,8 +167,8 @@
     }, {
       "name" : "WebTable.html request",
       "time" : {
-        "start" : 1633788830691,
-        "stop" : 1633788830691,
+        "start" : 1633788980949,
+        "stop" : 1633788980949,
         "duration" : 0
       },
       "status" : "passed",
@@ -180,25 +180,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "WebTable.html request",
+      "name" : "GET https://pagead2.googlesyndication.com/getconfig/sodar?sv=200&tid=gda&tv=r20211007&st=env",
       "time" : {
-        "start" : 1633788830691,
-        "stop" : 1633788830691,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "GET https://pagead2.googlesyndication.com/getconfig/sodar?sv=200&tid=gda&tv=r20211006&st=env",
-      "time" : {
-        "start" : 1633788830692,
-        "stop" : 1633788830692,
+        "start" : 1633788980949,
+        "stop" : 1633788980949,
         "duration" : 0
       },
       "status" : "passed",
@@ -212,9 +197,9 @@
     }, {
       "name" : "get (\"div[role=row]\")",
       "time" : {
-        "start" : 1633788830692,
-        "stop" : 1633788830758,
-        "duration" : 66
+        "start" : 1633788980949,
+        "stop" : 1633788981025,
+        "duration" : 76
       },
       "status" : "passed",
       "steps" : [ ],
@@ -227,8 +212,8 @@
     }, {
       "name" : "expected **<div.ui-grid-header-cell-row>** to have a length of **1** assert",
       "time" : {
-        "start" : 1633788830757,
-        "stop" : 1633788830757,
+        "start" : 1633788981025,
+        "stop" : 1633788981025,
         "duration" : 0
       },
       "status" : "passed",
@@ -242,7 +227,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 15,
+    "stepsCount" : 14,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -265,6 +250,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3520fdea90b181ab.json",
+  "source" : "d989b256208e33ad.json",
   "parameterValues" : [ ]
 }
