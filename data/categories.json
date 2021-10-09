@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `postNewtable`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
+      "children" : [ {
+        "name" : "Cadastro do usuário no site",
+        "uid" : "5465a2a1b3e69dc2",
+        "parentUid" : "144714d18f754a52e81b029a21a1e4b2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1633791752223,
+          "stop" : 1633791770400,
+          "duration" : 18177
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "144714d18f754a52e81b029a21a1e4b2"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
   "name" : "categories"
 }
