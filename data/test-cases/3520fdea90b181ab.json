@@ -1,12 +1,12 @@
 {
-  "uid" : "a1b6d99d7da68504",
-  "name" : "Listagem com apenas um registro",
-  "fullName" : "Listagem com apenas um registro",
-  "historyId" : "5f3521f1cc0523e9a6bd67ab09e45b39",
+  "uid" : "3520fdea90b181ab",
+  "name" : "Listagem sem registros",
+  "fullName" : "Listagem sem registros",
+  "historyId" : "9629a5613052fba26cadfd39a3d8cdb1",
   "time" : {
-    "start" : 1633787252408,
-    "stop" : 1633787254144,
-    "duration" : 1736
+    "start" : 1633788823362,
+    "stop" : 1633788830759,
+    "duration" : 7397
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,9 +17,9 @@
     "steps" : [ {
       "name" : "server",
       "time" : {
-        "start" : 1633787252723,
-        "stop" : 1633787252731,
-        "duration" : 8
+        "start" : 1633788823393,
+        "stop" : 1633788823395,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
@@ -32,9 +32,9 @@
     }, {
       "name" : "route (\"[object Object]\")",
       "time" : {
-        "start" : 1633787252731,
-        "stop" : 1633787252733,
-        "duration" : 2
+        "start" : 1633788823396,
+        "stop" : 1633788823400,
+        "duration" : 4
       },
       "status" : "passed",
       "steps" : [ ],
@@ -47,8 +47,8 @@
     }, {
       "name" : "as (\"getNewtable\")",
       "time" : {
-        "start" : 1633787252733,
-        "stop" : 1633787252734,
+        "start" : 1633788823400,
+        "stop" : 1633788823401,
         "duration" : 1
       },
       "status" : "passed",
@@ -62,9 +62,9 @@
     }, {
       "name" : "visit (\"WebTable.html\")",
       "time" : {
-        "start" : 1633787252734,
-        "stop" : 1633787254017,
-        "duration" : 1283
+        "start" : 1633788823401,
+        "stop" : 1633788830692,
+        "duration" : 7291
       },
       "status" : "passed",
       "steps" : [ ],
@@ -75,25 +75,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "WebTable.html request",
+      "name" : "STUBBED GET https://api.mlab.com/api/1/databases/userdetails/collections/newtable?apiKey=YEX0M2QMPd7JWJw_ipMB3a5gDddt4B_X",
       "time" : {
-        "start" : 1633787254016,
-        "stop" : 1633787254016,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "WebTable.html request",
-      "time" : {
-        "start" : 1633787254016,
-        "stop" : 1633787254016,
+        "start" : 1633788830690,
+        "stop" : 1633788830690,
         "duration" : 0
       },
       "status" : "passed",
@@ -107,23 +92,8 @@
     }, {
       "name" : "STUBBED GET https://api.mlab.com/api/1/databases/userdetails/collections/newtable?apiKey=YEX0M2QMPd7JWJw_ipMB3a5gDddt4B_X",
       "time" : {
-        "start" : 1633787254016,
-        "stop" : 1633787254016,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "STUBBED GET https://api.mlab.com/api/1/databases/userdetails/collections/newtable?apiKey=YEX0M2QMPd7JWJw_ipMB3a5gDddt4B_X",
-      "time" : {
-        "start" : 1633787254016,
-        "stop" : 1633787254016,
+        "start" : 1633788830690,
+        "stop" : 1633788830690,
         "duration" : 0
       },
       "status" : "passed",
@@ -137,8 +107,8 @@
     }, {
       "name" : "request",
       "time" : {
-        "start" : 1633787254017,
-        "stop" : 1633787254017,
+        "start" : 1633788830690,
+        "stop" : 1633788830690,
         "duration" : 0
       },
       "status" : "failed",
@@ -152,8 +122,8 @@
     }, {
       "name" : "request",
       "time" : {
-        "start" : 1633787254017,
-        "stop" : 1633787254017,
+        "start" : 1633788830691,
+        "stop" : 1633788830691,
         "duration" : 0
       },
       "status" : "failed",
@@ -165,10 +135,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "GET http://demo.automationtesting.in/Languages.json",
+      "name" : "request",
       "time" : {
-        "start" : 1633787254017,
-        "stop" : 1633787254017,
+        "start" : 1633788830691,
+        "stop" : 1633788830691,
         "duration" : 0
       },
       "status" : "passed",
@@ -180,10 +150,40 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "GET http://demo.automationtesting.in/Skills.json",
+      "name" : "request",
       "time" : {
-        "start" : 1633787254017,
-        "stop" : 1633787254017,
+        "start" : 1633788830691,
+        "stop" : 1633788830691,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "WebTable.html request",
+      "time" : {
+        "start" : 1633788830691,
+        "stop" : 1633788830691,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "WebTable.html request",
+      "time" : {
+        "start" : 1633788830691,
+        "stop" : 1633788830691,
         "duration" : 0
       },
       "status" : "passed",
@@ -197,8 +197,8 @@
     }, {
       "name" : "GET https://pagead2.googlesyndication.com/getconfig/sodar?sv=200&tid=gda&tv=r20211006&st=env",
       "time" : {
-        "start" : 1633787254017,
-        "stop" : 1633787254017,
+        "start" : 1633788830692,
+        "stop" : 1633788830692,
         "duration" : 0
       },
       "status" : "passed",
@@ -210,11 +210,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "get (\"div[role=row] div[role=gridcell]\")",
+      "name" : "get (\"div[role=row]\")",
       "time" : {
-        "start" : 1633787254017,
-        "stop" : 1633787254076,
-        "duration" : 59
+        "start" : 1633788830692,
+        "stop" : 1633788830758,
+        "duration" : 66
       },
       "status" : "passed",
       "steps" : [ ],
@@ -225,70 +225,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "eq (\"3\")",
+      "name" : "expected **<div.ui-grid-header-cell-row>** to have a length of **1** assert",
       "time" : {
-        "start" : 1633787254077,
-        "stop" : 1633787254084,
-        "duration" : 7
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "find (\"div\")",
-      "time" : {
-        "start" : 1633787254084,
-        "stop" : 1633787254117,
-        "duration" : 33
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "as (\"gridName\")",
-      "time" : {
-        "start" : 1633787254117,
-        "stop" : 1633787254117,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "get (\"@gridName\")",
-      "time" : {
-        "start" : 1633787254117,
-        "stop" : 1633787254143,
-        "duration" : 26
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "expected **<div.ui-grid-cell-contents.ng-binding.ng-scope>** to contain text **Quintiliano** assert",
-      "time" : {
-        "start" : 1633787254143,
-        "stop" : 1633787254143,
+        "start" : 1633788830757,
+        "stop" : 1633788830757,
         "duration" : 0
       },
       "status" : "passed",
@@ -302,7 +242,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 19,
+    "stepsCount" : 15,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -325,6 +265,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a1b6d99d7da68504.json",
+  "source" : "3520fdea90b181ab.json",
   "parameterValues" : [ ]
 }

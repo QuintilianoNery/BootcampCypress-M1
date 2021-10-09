@@ -1,30 +1,30 @@
 [ {
-  "uid" : "71d014e12ede07e0",
-  "name" : "Listagem sem registros",
+  "uid" : "a8c4063549d47a44",
+  "name" : "Listagem com apenas um registro",
   "time" : {
-    "start" : 1633787244701,
-    "stop" : 1633787252354,
-    "duration" : 7653
+    "start" : 1633788830812,
+    "stop" : 1633788832266,
+    "duration" : 1454
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f0ab51febba5d8d2",
+  "uid" : "ecad8396bb78f2ba",
   "name" : "Cadastro do usuário no site",
   "time" : {
-    "start" : 1633787208806,
-    "stop" : 1633787229349,
-    "duration" : 20543
+    "start" : 1633788794052,
+    "stop" : 1633788811111,
+    "duration" : 17059
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "a1b6d99d7da68504",
-  "name" : "Listagem com apenas um registro",
+  "uid" : "3520fdea90b181ab",
+  "name" : "Listagem sem registros",
   "time" : {
-    "start" : 1633787252408,
-    "stop" : 1633787254144,
-    "duration" : 1736
+    "start" : 1633788823362,
+    "stop" : 1633788830759,
+    "duration" : 7397
   },
   "status" : "passed",
   "severity" : "normal"

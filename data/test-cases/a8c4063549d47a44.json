@@ -1,12 +1,12 @@
 {
-  "uid" : "71d014e12ede07e0",
-  "name" : "Listagem sem registros",
-  "fullName" : "Listagem sem registros",
-  "historyId" : "9629a5613052fba26cadfd39a3d8cdb1",
+  "uid" : "a8c4063549d47a44",
+  "name" : "Listagem com apenas um registro",
+  "fullName" : "Listagem com apenas um registro",
+  "historyId" : "5f3521f1cc0523e9a6bd67ab09e45b39",
   "time" : {
-    "start" : 1633787244701,
-    "stop" : 1633787252354,
-    "duration" : 7653
+    "start" : 1633788830812,
+    "stop" : 1633788832266,
+    "duration" : 1454
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,9 +17,9 @@
     "steps" : [ {
       "name" : "server",
       "time" : {
-        "start" : 1633787244730,
-        "stop" : 1633787244732,
-        "duration" : 2
+        "start" : 1633788831125,
+        "stop" : 1633788831125,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -32,9 +32,9 @@
     }, {
       "name" : "route (\"[object Object]\")",
       "time" : {
-        "start" : 1633787244732,
-        "stop" : 1633787244737,
-        "duration" : 5
+        "start" : 1633788831125,
+        "stop" : 1633788831127,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
@@ -47,8 +47,8 @@
     }, {
       "name" : "as (\"getNewtable\")",
       "time" : {
-        "start" : 1633787244737,
-        "stop" : 1633787244738,
+        "start" : 1633788831127,
+        "stop" : 1633788831128,
         "duration" : 1
       },
       "status" : "passed",
@@ -62,9 +62,9 @@
     }, {
       "name" : "visit (\"WebTable.html\")",
       "time" : {
-        "start" : 1633787244738,
-        "stop" : 1633787252250,
-        "duration" : 7512
+        "start" : 1633788831128,
+        "stop" : 1633788832183,
+        "duration" : 1055
       },
       "status" : "passed",
       "steps" : [ ],
@@ -75,85 +75,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "STUBBED GET https://api.mlab.com/api/1/databases/userdetails/collections/newtable?apiKey=YEX0M2QMPd7JWJw_ipMB3a5gDddt4B_X",
+      "name" : "WebTable.html request",
       "time" : {
-        "start" : 1633787252240,
-        "stop" : 1633787252240,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "STUBBED GET https://api.mlab.com/api/1/databases/userdetails/collections/newtable?apiKey=YEX0M2QMPd7JWJw_ipMB3a5gDddt4B_X",
-      "time" : {
-        "start" : 1633787252240,
-        "stop" : 1633787252240,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "request",
-      "time" : {
-        "start" : 1633787252240,
-        "stop" : 1633787252240,
-        "duration" : 0
-      },
-      "status" : "failed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "request",
-      "time" : {
-        "start" : 1633787252240,
-        "stop" : 1633787252240,
-        "duration" : 0
-      },
-      "status" : "failed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "request",
-      "time" : {
-        "start" : 1633787252241,
-        "stop" : 1633787252241,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "request",
-      "time" : {
-        "start" : 1633787252241,
-        "stop" : 1633787252241,
+        "start" : 1633788832181,
+        "stop" : 1633788832181,
         "duration" : 0
       },
       "status" : "passed",
@@ -167,8 +92,8 @@
     }, {
       "name" : "WebTable.html request",
       "time" : {
-        "start" : 1633787252241,
-        "stop" : 1633787252241,
+        "start" : 1633788832181,
+        "stop" : 1633788832181,
         "duration" : 0
       },
       "status" : "passed",
@@ -180,10 +105,85 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "WebTable.html request",
+      "name" : "STUBBED GET https://api.mlab.com/api/1/databases/userdetails/collections/newtable?apiKey=YEX0M2QMPd7JWJw_ipMB3a5gDddt4B_X",
       "time" : {
-        "start" : 1633787252241,
-        "stop" : 1633787252241,
+        "start" : 1633788832181,
+        "stop" : 1633788832181,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "STUBBED GET https://api.mlab.com/api/1/databases/userdetails/collections/newtable?apiKey=YEX0M2QMPd7JWJw_ipMB3a5gDddt4B_X",
+      "time" : {
+        "start" : 1633788832181,
+        "stop" : 1633788832181,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "request",
+      "time" : {
+        "start" : 1633788832182,
+        "stop" : 1633788832182,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "request",
+      "time" : {
+        "start" : 1633788832182,
+        "stop" : 1633788832182,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET http://demo.automationtesting.in/Languages.json",
+      "time" : {
+        "start" : 1633788832182,
+        "stop" : 1633788832182,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET http://demo.automationtesting.in/Skills.json",
+      "time" : {
+        "start" : 1633788832183,
+        "stop" : 1633788832183,
         "duration" : 0
       },
       "status" : "passed",
@@ -197,8 +197,8 @@
     }, {
       "name" : "GET https://pagead2.googlesyndication.com/getconfig/sodar?sv=200&tid=gda&tv=r20211006&st=env",
       "time" : {
-        "start" : 1633787252241,
-        "stop" : 1633787252241,
+        "start" : 1633788832183,
+        "stop" : 1633788832183,
         "duration" : 0
       },
       "status" : "passed",
@@ -210,11 +210,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "get (\"div[role=row]\")",
+      "name" : "get (\"div[role=row] div[role=gridcell]\")",
       "time" : {
-        "start" : 1633787252250,
-        "stop" : 1633787252348,
-        "duration" : 98
+        "start" : 1633788832183,
+        "stop" : 1633788832236,
+        "duration" : 53
       },
       "status" : "passed",
       "steps" : [ ],
@@ -225,10 +225,70 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "expected **<div.ui-grid-header-cell-row>** to have a length of **1** assert",
+      "name" : "eq (\"3\")",
       "time" : {
-        "start" : 1633787252348,
-        "stop" : 1633787252348,
+        "start" : 1633788832236,
+        "stop" : 1633788832244,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "find (\"div\")",
+      "time" : {
+        "start" : 1633788832244,
+        "stop" : 1633788832252,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "as (\"gridName\")",
+      "time" : {
+        "start" : 1633788832252,
+        "stop" : 1633788832253,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"@gridName\")",
+      "time" : {
+        "start" : 1633788832253,
+        "stop" : 1633788832266,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expected **<div.ui-grid-cell-contents.ng-binding.ng-scope>** to contain text **Quintiliano** assert",
+      "time" : {
+        "start" : 1633788832266,
+        "stop" : 1633788832266,
         "duration" : 0
       },
       "status" : "passed",
@@ -242,7 +302,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 15,
+    "stepsCount" : 19,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -265,6 +325,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "71d014e12ede07e0.json",
+  "source" : "a8c4063549d47a44.json",
   "parameterValues" : [ ]
 }
