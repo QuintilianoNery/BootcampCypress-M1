@@ -1,0 +1,1038 @@
+{
+  "uid" : "f0ab51febba5d8d2",
+  "name" : "Cadastro do usuário no site",
+  "fullName" : "Cadastro do usuário no site",
+  "historyId" : "f334d607097515053332807416f1081a",
+  "time" : {
+    "start" : 1633787208806,
+    "stop" : 1633787229349,
+    "duration" : 20543
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `postNewtable`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
+  "statusTrace" : "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `postNewtable`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n    at cypressErr (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:172666:18)\n    at Object.errByPath (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:172735:10)\n    at checkForXhr (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:159192:92)\n    at http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:159215:28\n    at tryCatcher (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:13212:23)\n    at Function.Promise.attempt.Promise.try (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:10486:29)\n    at tryFn (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:165329:61)\n    at whenStable (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:165368:14)\n    at http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:164855:18\n    at tryCatcher (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:13212:23)\n    at Promise._settlePromiseFromHandler (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:11147:31)\n    at Promise._settlePromise (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:11204:18)\n    at Promise._settlePromise0 (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:11249:10)\n    at Promise._settlePromises (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:11329:18)\n    at Promise._fulfill (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:11273:18)\n    at http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:12887:46\nFrom Your Spec Code:\n    at Context.eval (http://demo.automationtesting.in/__cypress/tests?p=cypress/integration/cadastro.spec.js:2279:8)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `postNewtable`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
+    "statusTrace" : "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `postNewtable`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n    at cypressErr (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:172666:18)\n    at Object.errByPath (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:172735:10)\n    at checkForXhr (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:159192:92)\n    at http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:159215:28\n    at tryCatcher (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:13212:23)\n    at Function.Promise.attempt.Promise.try (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:10486:29)\n    at tryFn (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:165329:61)\n    at whenStable (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:165368:14)\n    at http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:164855:18\n    at tryCatcher (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:13212:23)\n    at Promise._settlePromiseFromHandler (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:11147:31)\n    at Promise._settlePromise (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:11204:18)\n    at Promise._settlePromise0 (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:11249:10)\n    at Promise._settlePromises (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:11329:18)\n    at Promise._fulfill (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:11273:18)\n    at http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:12887:46\nFrom Your Spec Code:\n    at Context.eval (http://demo.automationtesting.in/__cypress/tests?p=cypress/integration/cadastro.spec.js:2279:8)",
+    "steps" : [ {
+      "name" : "server",
+      "time" : {
+        "start" : 1633787208843,
+        "stop" : 1633787208846,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "route (\"POST\"; \"**/api/1/databases/userdetails/collections/newtable?**\")",
+      "time" : {
+        "start" : 1633787208846,
+        "stop" : 1633787208851,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "as (\"postNewtable\")",
+      "time" : {
+        "start" : 1633787208851,
+        "stop" : 1633787208852,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "route (\"POST\"; \"**/api/1/databases/userdetails/collections/usertable?**\")",
+      "time" : {
+        "start" : 1633787208852,
+        "stop" : 1633787208853,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "as (\"postUsertable\")",
+      "time" : {
+        "start" : 1633787208853,
+        "stop" : 1633787208854,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "route (\"GET\"; \"**/api/1/databases/userdetails/collections/newtable?**\")",
+      "time" : {
+        "start" : 1633787208854,
+        "stop" : 1633787208855,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "as (\"getNewtable\")",
+      "time" : {
+        "start" : 1633787208855,
+        "stop" : 1633787208855,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "visit (\"Register.html\")",
+      "time" : {
+        "start" : 1633787208855,
+        "stop" : 1633787217961,
+        "duration" : 9106
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET http://demo.automationtesting.in/Languages.json",
+      "time" : {
+        "start" : 1633787217959,
+        "stop" : 1633787217959,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "request",
+      "time" : {
+        "start" : 1633787217960,
+        "stop" : 1633787217960,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "request",
+      "time" : {
+        "start" : 1633787217960,
+        "stop" : 1633787217960,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "request",
+      "time" : {
+        "start" : 1633787217960,
+        "stop" : 1633787217960,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET http://demo.automationtesting.in/Languages.json",
+      "time" : {
+        "start" : 1633787217960,
+        "stop" : 1633787217960,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET http://demo.automationtesting.in/Skills.json",
+      "time" : {
+        "start" : 1633787217960,
+        "stop" : 1633787217960,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "TypeError: Cannot read properties of undefined (reading '0') uncaught exception",
+      "time" : {
+        "start" : 1633787217960,
+        "stop" : 1633787217960,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Register.html request",
+      "time" : {
+        "start" : 1633787217961,
+        "stop" : 1633787217961,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://pagead2.googlesyndication.com/getconfig/sodar?sv=200&tid=gda&tv=r20211006&st=env",
+      "time" : {
+        "start" : 1633787217961,
+        "stop" : 1633787217961,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"input[placeholder=\"First Name\"]\")",
+      "time" : {
+        "start" : 1633787217961,
+        "stop" : 1633787217983,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "type (\"Betty\")",
+      "time" : {
+        "start" : 1633787217984,
+        "stop" : 1633787218424,
+        "duration" : 440
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"input[ng-model=\"LastName\"]\")",
+      "time" : {
+        "start" : 1633787218424,
+        "stop" : 1633787218435,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "type (\"Lorenzi\")",
+      "time" : {
+        "start" : 1633787218435,
+        "stop" : 1633787218936,
+        "duration" : 501
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"textarea[ng-model^=Adress]\")",
+      "time" : {
+        "start" : 1633787218936,
+        "stop" : 1633787218954,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "type (\"137 Fekjeb Highway\")",
+      "time" : {
+        "start" : 1633787218954,
+        "stop" : 1633787219955,
+        "duration" : 1001
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "137 Fekjeb Highway request",
+      "time" : {
+        "start" : 1633787219955,
+        "stop" : 1633787219955,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"input[ng-model^=Email]\")",
+      "time" : {
+        "start" : 1633787219955,
+        "stop" : 1633787219963,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "type (\"dow@pova.uy\")",
+      "time" : {
+        "start" : 1633787219963,
+        "stop" : 1633787220311,
+        "duration" : 348
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"input[ng-model^=Phone]\")",
+      "time" : {
+        "start" : 1633787220311,
+        "stop" : 1633787220338,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "type (\"7068445579\")",
+      "time" : {
+        "start" : 1633787220338,
+        "stop" : 1633787220656,
+        "duration" : 318
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"input[value^=Male]\")",
+      "time" : {
+        "start" : 1633787220656,
+        "stop" : 1633787220669,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1633787220669,
+        "stop" : 1633787220791,
+        "duration" : 122
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"input[value=FeMale]\")",
+      "time" : {
+        "start" : 1633787220791,
+        "stop" : 1633787220803,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1633787220803,
+        "stop" : 1633787220946,
+        "duration" : 143
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"input[value^=Male]\")",
+      "time" : {
+        "start" : 1633787220946,
+        "stop" : 1633787220957,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "check",
+      "time" : {
+        "start" : 1633787220957,
+        "stop" : 1633787221095,
+        "duration" : 138
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"input[type=checkbox]\")",
+      "time" : {
+        "start" : 1633787221095,
+        "stop" : 1633787221116,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "check (\"Movies\")",
+      "time" : {
+        "start" : 1633787221116,
+        "stop" : 1633787221235,
+        "duration" : 119
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"input[type=checkbox]\")",
+      "time" : {
+        "start" : 1633787221235,
+        "stop" : 1633787221274,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "check (\"Hockey\")",
+      "time" : {
+        "start" : 1633787221274,
+        "stop" : 1633787221432,
+        "duration" : 158
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"input[id=checkbox1]\")",
+      "time" : {
+        "start" : 1633787221432,
+        "stop" : 1633787221444,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1633787221444,
+        "stop" : 1633787221578,
+        "duration" : 134
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"input[id=checkbox2]\")",
+      "time" : {
+        "start" : 1633787221578,
+        "stop" : 1633787221590,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1633787221590,
+        "stop" : 1633787221716,
+        "duration" : 126
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"input[id=checkbox3]\")",
+      "time" : {
+        "start" : 1633787221716,
+        "stop" : 1633787221732,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1633787221732,
+        "stop" : 1633787221861,
+        "duration" : 129
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"select#Skills\")",
+      "time" : {
+        "start" : 1633787221861,
+        "stop" : 1633787221884,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "select (\"Design\")",
+      "time" : {
+        "start" : 1633787221884,
+        "stop" : 1633787222084,
+        "duration" : 200
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"select#country\")",
+      "time" : {
+        "start" : 1633787222084,
+        "stop" : 1633787222097,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "select (\"New Zealand\"; \"[object Object]\")",
+      "time" : {
+        "start" : 1633787222097,
+        "stop" : 1633787222218,
+        "duration" : 121
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"select#yearbox\")",
+      "time" : {
+        "start" : 1633787222218,
+        "stop" : 1633787222240,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "select (\"2013\")",
+      "time" : {
+        "start" : 1633787222240,
+        "stop" : 1633787222440,
+        "duration" : 200
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"select[ng-model=monthbox]\")",
+      "time" : {
+        "start" : 1633787222440,
+        "stop" : 1633787222455,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "select (\"May\")",
+      "time" : {
+        "start" : 1633787222455,
+        "stop" : 1633787222625,
+        "duration" : 170
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"select#daybox\")",
+      "time" : {
+        "start" : 1633787222625,
+        "stop" : 1633787222648,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "select (\"21\")",
+      "time" : {
+        "start" : 1633787222648,
+        "stop" : 1633787222855,
+        "duration" : 207
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"input#firstpassword\")",
+      "time" : {
+        "start" : 1633787222855,
+        "stop" : 1633787222869,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "type (\"Quintiliano2021*\")",
+      "time" : {
+        "start" : 1633787222869,
+        "stop" : 1633787223314,
+        "duration" : 445
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"input#secondpassword\")",
+      "time" : {
+        "start" : 1633787223314,
+        "stop" : 1633787223345,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "type (\"Quintiliano2021*\")",
+      "time" : {
+        "start" : 1633787223345,
+        "stop" : 1633787223764,
+        "duration" : 419
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"input#imagesrc\")",
+      "time" : {
+        "start" : 1633787223764,
+        "stop" : 1633787223807,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "attachFile (\"raio.png\")",
+      "time" : {
+        "start" : 1633787223807,
+        "stop" : 1633787223841,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "fixture (\"raio.png\"; \"base64\")",
+        "time" : {
+          "start" : 1633787223810,
+          "stop" : 1633787223830,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "raio.png attachFile",
+        "time" : {
+          "start" : 1633787223841,
+          "stop" : 1633787223841,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "get (\"button[id=submitbtn]\")",
+      "time" : {
+        "start" : 1633787223842,
+        "stop" : 1633787223875,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1633787223875,
+        "stop" : 1633787224027,
+        "duration" : 152
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait (\"@postNewtable\")",
+      "time" : {
+        "start" : 1633787224027,
+        "stop" : 1633787229079,
+        "duration" : 5052
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "name" : "cadastro.spec.js.mp4",
+      "type" : "video/mp4",
+      "size" : 0
+    }, {
+      "uid" : "fc5769d87451834d",
+      "name" : "cadastro.spec.js:2021-10-09T13:47:09.094Z",
+      "source" : "fc5769d87451834d.png",
+      "type" : "image/png",
+      "size" : 143150
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 65,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Cadastro"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f0ab51febba5d8d2.json",
+  "parameterValues" : [ ]
+}
