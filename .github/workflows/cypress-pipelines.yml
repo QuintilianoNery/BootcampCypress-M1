@@ -2,14 +2,14 @@
 
 name: M1
 
-# Comantos de configuração. 
+# Comantos de configuração.
 on:
   # sempre que tiver um envio para origin ele vai executar estes comandos
-    # Gatilhos de execuções, podendo agendar apra um determinado horário
+  # Gatilhos de execuções, podendo agendar apra um determinado horário
   push:
-    branches: [ origin ]
+    branches: [origin]
   pull_request:
-    branches: [ origin ]
+    branches: [origin]
 
   # Abilitar workflow manualmente
   workflow_dispatch:
@@ -20,40 +20,40 @@ jobs:
   build:
     # Executar em um windows-latest, ubuntu-latest
     runs-on: ubuntu-latest
-    
+
     # Qual versão do node vai ser utilizada
     strategy:
       matrix:
         node-version: [12.x]
-    
-    # Configurações 
+
+    # Configurações
     # Configuração que instala o node
     steps:
-        - name: Setup Node.js
-          uses: actions/setup-node@v2.1.2
-          with:
-            node-version: ${{ matrix.node-version }}
-        - uses: actions/checkout@v2
-        #comandos necessários para executar a aplicação da mesma forma que no PC
-        - run: npm install
-        
-        - run: npx cypress run --env allure=true --browser chrome --record --key fd9003b8-ede0-4f41-afa3-714edde8a8b6
-        
+      - name: Setup Node.js
+        uses: actions/setup-node@v2.1.2
+        with:
+          node-version: ${{ matrix.node-version }}
+      - uses: actions/checkout@v2
+      #comandos necessários para executar a aplicação da mesma forma que no PC
+      - run: npm install
+
+      - run: npx cypress run --env allure=true --browser chrome --record --key fd9003b8-ede0-4f41-afa3-714edde8a8b6
+
+        continue-on-error: true
+
+        #Geração do relatório em HTML allure-report
+      - name: Allure report
+        uses: QuintilianoNery/action-allure-report-V2@0.2.0
+        with:
+          results-dir: allure-results
+
+          report-dir: allure-report
+
+        #Enviar para o git hub pages
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          GITHUB_TOKEN: ${{SECRETS.GITHUB_TOKEN}}
+          BRANCH: gh-pages
+          FOLDER: allure-report
           continue-on-error: true
-
-          #Geração do relatório em HTML allure-report
-        - name: Allure report
-          uses: QuintilianoNery/action-allure-report-V2@0.2.0
-          with:
-            results-dir: allure-results
-
-            report-dir: allure-report
-
-          #Enviar para o git hub pages
-        - name: Deploy to GitHub Pages
-          uses: JamesIves/github-pages-deploy-action@3.7.1
-          with:
-            GITHUB_TOKEN: ${{SECRETS.GITHUB_TOKEN}}
-            BRANCH: gh-pages
-            FOLDER: allure-report
-            continue-on-error: true
