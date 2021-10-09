@@ -7,7 +7,7 @@ let chance = new Chance();
 //Faker-br
 let Faker = require('faker-br');
 
-context('Cadastro', () => {
+context.skip('Cadastro', () => {
     it('Cadastro do usuário no site', () => {
         //Rotas
         //POST 200 /api/1/databases/userdetails/collections/newtable?apiKey=YEX0M2QMPd7JWJw_ipMB3a5gDddt4B_X

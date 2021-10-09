@@ -37,15 +37,7 @@ context('Listagem', () => {
             method: 'GET',
             url: '**/api/1/databases/userdetails/collections/newtable?**',
             status: 200,
-            response: [{
-                "_id": {
-                    "$oid": "5bbcad731f6e4f08440ab062"
-                },
-                "LastName": "Quintiliano",
-                "Email": "q@q.com.teste",
-                "Phone": "3199999999",
-                "Gender": "Male"
-            }]
+            response: 'fx:webtable-get-unico'
 
         }).as('getNewtable');
         cy.visit('WebTable.html');
