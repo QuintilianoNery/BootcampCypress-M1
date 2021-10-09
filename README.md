@@ -40,3 +40,7 @@ npm install cypress --save-dev
 
 ## Configurar o upload de arquivos com file-upload
 
+
+
+
+[! [BootcampCypress-M1] (https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/simple/zskex9/heads%2Fdevelop&style=flat&logo=cypress)] (https://dashboard.cypress.io/projects/zskex9/runs)
