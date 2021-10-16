@@ -22,7 +22,6 @@ context('Listagem', () => {
             .should('have.length', 1);
     });
 
-
     //Neste teste eu trago as informações continas na rota para semrem apresantadas na tela vintas em formato JS.
 
     //No sistema da Tecsystem podemos fazer isso para testar o retorno de informações erradas e validar se ao salvar o sistema vai mostrar exatamente as validações necessárias.
