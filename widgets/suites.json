@@ -1,26 +1,4 @@
 {
-  "total" : 2,
-  "items" : [ {
-    "uid" : "b0e5ff42752bfa4a9da4963e258fa3c2",
-    "name" : "Listagem",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
-    }
-  }, {
-    "uid" : "630cf9dc2fcbc5b82b5ee5ec3829233c",
-    "name" : "Página Inicial",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  } ]
+  "total" : 0,
+  "items" : [ ]
 }

@@ -1,4 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Fri Jul 22 17:36:44 GMT 2022","Fri Jul 22 17:36:47 GMT 2022","3008","","Página Inicial","","","","Verificando primeiro acesso no site",""
-"passed","Fri Jul 22 17:36:22 GMT 2022","Fri Jul 22 17:36:27 GMT 2022","5308","","Listagem","","","","Listagem com apenas um registro",""
-"passed","Fri Jul 22 17:36:07 GMT 2022","Fri Jul 22 17:36:22 GMT 2022","14771","","Listagem","","","","Listagem sem registros",""

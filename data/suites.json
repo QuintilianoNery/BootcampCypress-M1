@@ -1,52 +1,5 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
-  "children" : [ {
-    "name" : "Listagem",
-    "children" : [ {
-      "name" : "Listagem sem registros",
-      "uid" : "947c2009bfb3d4f5",
-      "parentUid" : "b0e5ff42752bfa4a9da4963e258fa3c2",
-      "status" : "passed",
-      "time" : {
-        "start" : 1658511367469,
-        "stop" : 1658511382240,
-        "duration" : 14771
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Listagem com apenas um registro",
-      "uid" : "83561d104f979a2d",
-      "parentUid" : "b0e5ff42752bfa4a9da4963e258fa3c2",
-      "status" : "passed",
-      "time" : {
-        "start" : 1658511382285,
-        "stop" : 1658511387593,
-        "duration" : 5308
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "b0e5ff42752bfa4a9da4963e258fa3c2"
-  }, {
-    "name" : "Página Inicial",
-    "children" : [ {
-      "name" : "Verificando primeiro acesso no site",
-      "uid" : "7852cdcacaf791a1",
-      "parentUid" : "630cf9dc2fcbc5b82b5ee5ec3829233c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1658511404988,
-        "stop" : 1658511407996,
-        "duration" : 3008
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "630cf9dc2fcbc5b82b5ee5ec3829233c"
-  } ],
+  "children" : [ ],
   "name" : "suites"
 }
