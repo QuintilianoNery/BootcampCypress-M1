@@ -1,12 +1,12 @@
 {
-  "uid" : "a33fe583def8f0e7",
+  "uid" : "7852cdcacaf791a1",
   "name" : "Verificando primeiro acesso no site",
   "fullName" : "Verificando primeiro acesso no site",
   "historyId" : "d62be60438dc41a5f11614e0cd3ee58d",
   "time" : {
-    "start" : 1634389764764,
-    "stop" : 1634389765751,
-    "duration" : 987
+    "start" : 1658511404988,
+    "stop" : 1658511407996,
+    "duration" : 3008
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,9 +17,9 @@
     "steps" : [ {
       "name" : "visit (\"/\")",
       "time" : {
-        "start" : 1634389764814,
-        "stop" : 1634389765663,
-        "duration" : 849
+        "start" : 1658511405042,
+        "stop" : 1658511407901,
+        "duration" : 2859
       },
       "status" : "passed",
       "steps" : [ ],
@@ -30,11 +30,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Error: Script error.\n\nCypress detected that an uncaught error was thrown from a cross origin script.\n\nWe cannot provide you the stack trace, line number, or file where this error occurred.\n\nCheck your Developer Tools Console for the actual error - it should be printed there.\n\nIt's possible to enable debugging these scripts by adding the `crossorigin` attribute and setting a CORS header. uncaught exception",
+      "name" : "ReferenceError: angular is not defined uncaught exception",
       "time" : {
-        "start" : 1634389765663,
-        "stop" : 1634389765663,
-        "duration" : 0
+        "start" : 1658511407900,
+        "stop" : 1658511407901,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -47,9 +47,9 @@
     }, {
       "name" : "url",
       "time" : {
-        "start" : 1634389765663,
-        "stop" : 1634389765685,
-        "duration" : 22
+        "start" : 1658511407901,
+        "stop" : 1658511407915,
+        "duration" : 14
       },
       "status" : "passed",
       "steps" : [ ],
@@ -60,10 +60,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "expected **http://demo.automationtesting.in/** to include **automationtesting.in** assert",
+      "name" : "expected **https://demo.automationtesting.in/** to include **automationtesting.in** assert",
       "time" : {
-        "start" : 1634389765685,
-        "stop" : 1634389765685,
+        "start" : 1658511407915,
+        "stop" : 1658511407915,
         "duration" : 0
       },
       "status" : "passed",
@@ -77,9 +77,9 @@
     }, {
       "name" : "get (\"button[id=btn1]\")",
       "time" : {
-        "start" : 1634389765685,
-        "stop" : 1634389765714,
-        "duration" : 29
+        "start" : 1658511407915,
+        "stop" : 1658511407936,
+        "duration" : 21
       },
       "status" : "passed",
       "steps" : [ ],
@@ -92,9 +92,9 @@
     }, {
       "name" : "contains (\"Sign In\")",
       "time" : {
-        "start" : 1634389765714,
-        "stop" : 1634389765730,
-        "duration" : 16
+        "start" : 1658511407936,
+        "stop" : 1658511407954,
+        "duration" : 18
       },
       "status" : "passed",
       "steps" : [ ],
@@ -107,8 +107,8 @@
     }, {
       "name" : "expected **<button#btn1.btn.btn-primary-outline>** to be **visible** assert",
       "time" : {
-        "start" : 1634389765730,
-        "stop" : 1634389765730,
+        "start" : 1658511407953,
+        "stop" : 1658511407953,
         "duration" : 0
       },
       "status" : "passed",
@@ -122,9 +122,9 @@
     }, {
       "name" : "get (\"button[id=btn2]\")",
       "time" : {
-        "start" : 1634389765730,
-        "stop" : 1634389765738,
-        "duration" : 8
+        "start" : 1658511407954,
+        "stop" : 1658511407970,
+        "duration" : 16
       },
       "status" : "passed",
       "steps" : [ ],
@@ -137,9 +137,9 @@
     }, {
       "name" : "contains (\"Skip Sign In\")",
       "time" : {
-        "start" : 1634389765738,
-        "stop" : 1634389765750,
-        "duration" : 12
+        "start" : 1658511407970,
+        "stop" : 1658511407994,
+        "duration" : 24
       },
       "status" : "passed",
       "steps" : [ ],
@@ -152,8 +152,8 @@
     }, {
       "name" : "expected **<button#btn2.btn.btn-primary-outline>** to be **visible** assert",
       "time" : {
-        "start" : 1634389765749,
-        "stop" : 1634389765749,
+        "start" : 1658511407994,
+        "stop" : 1658511407994,
         "duration" : 0
       },
       "status" : "passed",
@@ -190,6 +190,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a33fe583def8f0e7.json",
+  "source" : "7852cdcacaf791a1.json",
   "parameterValues" : [ ]
 }
