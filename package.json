@@ -4,7 +4,7 @@
   "description": "* npm init -y\r * npm install -D cypress\r * npx cypress open",
   "main": "index.js",
   "scripts": {
-    "cy:open": "npx cypress open",
+    "cy:open": "npx cypress open --config video=true",
     "cy:run": "npx cypress run"
   },
   "repository": {
@@ -21,7 +21,7 @@
   "devDependencies": {
     "@shelex/cypress-allure-plugin": "^2.3.6",
     "chance": "^1.1.7",
-    "cypress": "^8.5.0",
+    "cypress": "^10.3.1",
     "cypress-file-upload": "^4.1.1",
     "faker-br": "^0.3.0",
     "rimraf": "^3.0.2"
