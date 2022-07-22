@@ -37,7 +37,7 @@ jobs:
       #comandos necessários para executar a aplicação da mesma forma que no PC
       - run: npm install
 
-      - run: npx cypress run --env allure=true --browser chrome --record --key fd9003b8-ede0-4f41-afa3-714edde8a8b6
+      - run: npx cypress run --config video=true --env allure=true --browser chrome --record --key fd9003b8-ede0-4f41-afa3-714edde8a8b6
 
         continue-on-error: true
 
